@@ -25,6 +25,19 @@ Principais Características:
 
 O Adianti Framework é uma ótima opção para desenvolvedores PHP que buscam uma solução eficiente e robusta para construir aplicações empresariais de forma rápida e estruturada.
 
+
+# Conhecimentos requeridos.
+
+Para trabalhar com Adianti Framework é recomendavel que tenha conhecimento das tecnologias abaixo
+* PHP - exigido 
+* PHP com POO - desejável 
+* HTML 5 - desejável 
+* JavaScript - desejável
+
+Para quem não tem esses conhecimentos recomendo o curso em vídeo do Gustava Guanabara 
+* HTML 5 + CSS 3 - https://www.youtube.com/watch?v=rqvn_c2n9Eg&list=PLHz_AreHm4dn1bAtIJWFrugl5z2Ej_52d
+* HTML 5 + CSS 3 - https://www.youtube.com/watch?v=rqvn_c2n9Eg&list=PLHz_AreHm4dn1bAtIJWFrugl5z2Ej_52d
+
 # Estrutura de diretórios
 
 No Link a seguir detalha a estrutura de diretórios utilizada pelo Adianti framework. Todas os componente do framework estão localizados sob o diretório /lib/adianti. O diretório /lib ainda possui outras bibliotecas utilizadas pelo framework. O diretório app contém a aplicação desenvolvida. 
