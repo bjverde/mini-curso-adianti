@@ -9,13 +9,11 @@ Configure o conector dentro da aplicação:
 Cada banco de dados deve ser configurado na pasta app/config por um INI ou PHP. Para usar um conector, você deve ter o driver correto habilitado no php.ini.
 
 > [!TIP]
-> Recomento usar arquivos PHP irá subir um pouco a segurança do seu sistema. Arquivos INI por padrão o Apache mostrar o seu conteúdo diferente do arquivo PHP
+> Recomento usar arquivos PHP, assim terá um pouco mais de segurança para seu sistema. Arquivos INI por padrão o Apache mostrar o seu conteúdo diferente do arquivo PHP
 
 
-Veja exemplos no Guia Rápido do Adianti
-https://adiantiframework.com.br/guia-rapido
-
-
+## Exemplo PHP
+Arquivo em PHP de exemplo que poderá ser usado
 
 ```php
 return [
@@ -31,10 +29,13 @@ return [
 ];
 ```
 
+Veja mais exemplos de config em banco no Guia Rápido do Adianti
+https://adiantiframework.com.br/guia-rapido
+
 
 
 # Classe modelo
-As classes model representam as tabelas do banco de dados. Uma classe modelo é filha de TRecord. Esta classe do framework fornece métodos básicos de persistência como store(), delete() e load() que manipulam um objeto na base de dados.
+Além do arquivo de config no banco. As classes model representam as tabelas do banco de dados. Uma classe modelo é filha de TRecord. Esta classe do framework fornece métodos básicos de persistência como store(), delete() e load() que manipulam um objeto na base de dados.
 
 Veja exemplos no Guia Rápido do Adianti
 https://adiantiframework.com.br/guia-rapido
