@@ -25,23 +25,23 @@ Principais Características:
 
 O Adianti Framework é uma ótima opção para desenvolvedores PHP que buscam uma solução eficiente e robusta para construir aplicações empresariais de forma rápida e estruturada.
 
+## Ambiente Adianti
+
+Compreendendo o ambiente do Adianti
+
+* Adianti Soluttion - É a empresa criada responsável pela criação e manutenção do Adianti FrameWork que tem uma licença livre 
+* Adianti Templete  - O Template é um grande gabarito para criação de novos projetos que possui controle de login e permissões de acesso por usuários, grupos de usuários e programas, controles multi unidade, e multi idioma, gestão de documentos, messageria e notificações, logs de acesso, logs de alterações, de SQL, logs de HTTP, REST.
+* Adianti FrameWork - Você pode baixar o Framework puro caso não precise dos Templates padrão de sistemas em seus projetos. Geralmente usuários avançados utilizam o Framework puro para construir seus próprios controles de login, permissão, menu, template e outros.
+* Adianti Reports and BI - Dashboards analíticos e Relatórios para Empresas e Produtores de Software.
+* Adianti Studio - antiga IDE feia em PHP-GTK para trabalhar com o Adianti FrameWork. Foi descontinuada
+* Mad Builder - Ferramenta LowCode web para construir sistema usando o Adianti Templete com alguns componentes próprios. 
+
 ## Licença 
 
 Resuminod o uso é livre. Uso Permitido. Você tem permissão para usar, copiar, modificar e distribuir o Software e sua documentação, com ou sem modificação, para qualquer propósito, desde que as seguintes condições sejam atendidas
 
 No link poderá ver a licença detalhada
 https://adiantiframework.com.br/license
-
-## Ambiente Adianti
-
-Compreendendo o ambiente do Adianti
-
-* Adianti Soluttion - É a empresa criada responsável pela criação e manutenção do Adianti FrameWork 
-* Adianti FrameWork
-* Adianti Templete
-* Adianti Reports and BI
-* Adianti Studio 
-* Mad Builder
 
 
 # Conhecimentos requeridos.
