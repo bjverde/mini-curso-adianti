@@ -1,4 +1,4 @@
-# Mini Curso do Adianti Framework
+# Minicurso do Adianti Framework
 
 # Introdução 
 
