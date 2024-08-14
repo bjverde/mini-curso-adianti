@@ -25,6 +25,24 @@ Principais Características:
 
 O Adianti Framework é uma ótima opção para desenvolvedores PHP que buscam uma solução eficiente e robusta para construir aplicações empresariais de forma rápida e estruturada.
 
+## Licença 
+
+Resuminod o uso é livre. Uso Permitido. Você tem permissão para usar, copiar, modificar e distribuir o Software e sua documentação, com ou sem modificação, para qualquer propósito, desde que as seguintes condições sejam atendidas
+
+No link poderá ver a licença detalhada
+https://adiantiframework.com.br/license
+
+## Ambiente Adianti
+
+Compreendendo o ambiente do Adianti
+
+* Adianti Soluttion - É a empresa criada responsável pela criação e manutenção do Adianti FrameWork 
+* Adianti FrameWork
+* Adianti Templete
+* Adianti Reports and BI
+* Adianti Studio 
+* Mad Builder
+
 
 # Conhecimentos requeridos.
 
