@@ -31,5 +31,6 @@ No Link a seguir detalha a estrutura de diretórios utilizada pelo Adianti frame
 
 https://adiantiframework.com.br/estrutura
 
-
 [https://youtu.be/1f3biISX4Ag](https://www.youtube.com/watch?v=1f3biISX4Ag)
+
+https://www.youtube.com/watch?v=HPWBY6cl-LA&list=PLLExJS8y-2LKjK05hVEL3sHr8XupCyZt9
