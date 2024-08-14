@@ -42,13 +42,13 @@ Para quem não tem esses conhecimentos recomendo os cursos abaixo:
 * Curso PHP 8 do zero ao proficional. https://www.youtube.com/watch?v=O73xbQvGhHk&list=PL0N5TAOhX5E9eJ9Ix6YUIgEw3lNmaIEE9
 
 
-
 # Estrutura de diretórios
 
 No Link a seguir detalha a estrutura de diretórios utilizada pelo Adianti framework. Todas os componente do framework estão localizados sob o diretório /lib/adianti. O diretório /lib ainda possui outras bibliotecas utilizadas pelo framework. O diretório app contém a aplicação desenvolvida. 
 
 https://adiantiframework.com.br/estrutura
+ 
+[Estrutura do Projeto no Adianti Framework, por ScriptDevBR (Fabricio)](https://www.youtube.com/watch?v=1f3biISX4Ag)
 
-[https://youtu.be/1f3biISX4Ag](https://www.youtube.com/watch?v=1f3biISX4Ag)
-
+# Cursos sobre o Adianti
 https://www.youtube.com/watch?v=HPWBY6cl-LA&list=PLLExJS8y-2LKjK05hVEL3sHr8XupCyZt9
