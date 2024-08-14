@@ -24,3 +24,12 @@ Principais Características:
 * Flexibilidade: Pode ser utilizado para desenvolver desde pequenos sistemas até grandes aplicações empresariais.
 
 O Adianti Framework é uma ótima opção para desenvolvedores PHP que buscam uma solução eficiente e robusta para construir aplicações empresariais de forma rápida e estruturada.
+
+# Estrutura de diretórios
+
+No Link a seguir detalha a estrutura de diretórios utilizada pelo Adianti framework. Todas os componente do framework estão localizados sob o diretório /lib/adianti. O diretório /lib ainda possui outras bibliotecas utilizadas pelo framework. O diretório app contém a aplicação desenvolvida. 
+
+https://adiantiframework.com.br/estrutura
+
+
+[https://youtu.be/1f3biISX4Ag](https://www.youtube.com/watch?v=1f3biISX4Ag)
