@@ -27,7 +27,7 @@ O Adianti Framework é uma ótima opção para desenvolvedores PHP que buscam um
 
 ## Ambiente Adianti
 
-Compreendendo o ambiente do Adianti
+Compreendendo o ambiente do Adianti e todos os elementos envolvidos
 
 * Adianti Soluttion - É a empresa criada responsável pela criação e manutenção do Adianti FrameWork que tem uma licença livre 
 * Adianti Templete  - O Template é um grande gabarito para criação de novos projetos que possui controle de login e permissões de acesso por usuários, grupos de usuários e programas, controles multi unidade, e multi idioma, gestão de documentos, messageria e notificações, logs de acesso, logs de alterações, de SQL, logs de HTTP, REST.
