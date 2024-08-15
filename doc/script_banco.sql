@@ -1,4 +1,11 @@
 PRAGMA foreign_keys=OFF; 
+DROP TABLE if exists endereco;
+DROP TABLE if exists telefone;
+DROP TABLE if exists pessoa;
+DROP TABLE if exists tipo;
+DROP TABLE if exists municipio;
+DROP TABLE if exists uf;
+DROP TABLE if exists regiao;
 
 CREATE TABLE endereco( 
       idendereco  INTEGER    NOT NULL  , 
@@ -26,15 +33,6 @@ CREATE TABLE municipio(
       dat_exclusao datetime   , 
  PRIMARY KEY (id_municipio),
 FOREIGN KEY(cod_uf) REFERENCES uf(cod_uf)) ; 
-
-CREATE TABLE pedido( 
-      idpedido  INTEGER    NOT NULL  , 
-      idpessoa int   NOT NULL  , 
-      dat_pedido datetime   NOT NULL  , 
-      idtipo_pagamento int   NOT NULL  , 
- PRIMARY KEY (idpedido),
-FOREIGN KEY(idtipo_pagamento) REFERENCES tipo(idtipo),
-FOREIGN KEY(idpessoa) REFERENCES pessoa(idpessoa)) ; 
 
 CREATE TABLE pessoa( 
       idpessoa  INTEGER    NOT NULL  , 
@@ -87,22 +85,44 @@ CREATE TABLE uf(
 FOREIGN KEY(cod_regiao) REFERENCES regiao(cod_regiao)) ; 
 
  
- INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (1,'Norte',null); 
-
-INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (2,'Nordeste',null); 
-
-INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (3,'Sudeste',null); 
-
-INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (4,'Centro-Oeste',null); 
-
-INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (5,'Sul',null); 
-
-INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (9,'Brasil',null); 
-
 INSERT INTO tipo (idtipo,descricao,dat_exclusao) VALUES (1,'pessoal',null); 
-
 INSERT INTO tipo (idtipo,descricao,dat_exclusao) VALUES (2,'comercial',null); 
-
 INSERT INTO tipo (idtipo,descricao,dat_exclusao) VALUES (3,'cobrança',null); 
 
-INSERT INTO uf (cod_uf,cod_regiao,nom_uf,sig_uf,dat_exclusao) VALUES (11,1,'RONDONIA','RO',null); 
+
+INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (1,'Norte',null); 
+INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (2,'Nordeste',null); 
+INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (3,'Sudeste',null); 
+INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (4,'Centro-Oeste',null); 
+INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (5,'Sul',null); 
+INSERT INTO regiao (cod_regiao,nom_regiao,dat_exclusao) VALUES (9,'Brasil',null); 
+
+-- Incluido UF
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (11,'RO','RONDONIA',1);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (12,'AC','ACRE',1);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (13,'AM','AMAZONAS',1);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (14,'RR','RORAIMA',1);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (15,'PA','PARA',1);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (16,'AP','AMAPA',1);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (17,'TO','TOCANTINS',1);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (21,'MA','MARANHAO',2);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (22,'PI','PIAUI',2);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (23,'CE','CEARA',2);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (24,'RN','RIO GRANDE DO NORTE',2);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (25,'PB','PARAIBA',2);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (26,'PE','PERNAMBUCO',2);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (27,'AL','ALAGOAS',2);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (28,'SE','SERGIPE',2);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (29,'BA','BAHIA',2);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (31,'MG','MINAS GERAIS',3);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (32,'ES','ESPIRITO SANTO',3);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (33,'RJ','RIO DE JANEIRO',3);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (35,'SP','SAO PAULO',3);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (41,'PR','PARANA',4);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (42,'SC','SANTA CATARINA',4);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (43,'RS','RIO GRANDE DO SUL',4);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (50,'MS','MATO GROSSO DO SUL',5);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (51,'MT','MATO GROSSO',5);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (52,'GO','GOIÁS',5);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (53,'DF','DISTRITO FEDERAL',5);
+INSERT INTO uf (cod_uf,sig_uf,nom_uf,cod_regiao) VALUES (99,'UC','Unico',9);
