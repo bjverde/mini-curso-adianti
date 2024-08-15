@@ -3,33 +3,33 @@
   <menuitem label="Básico">
     <icon> fa-fw </icon>
     <menu>
-      <menuitem label="UF">
-        <icon>fas:globe fa-fw </icon>
-        <action>UfFormList#method=onShow</action>
-      </menuitem>
-      <menuitem label="Municipio">
-        <icon>fas:map-marker-alt fa-fw </icon>
-        <action>MunicipioList#method=onShow</action>
+      <menuitem label="Pessoa">
+        <icon>fas:users fa-fw </icon>
+        <action>PessoaList#method=onShow</action>
       </menuitem>
       <menuitem label="Telefone">
         <icon>fas:phone fa-fw </icon>
         <action>TelefoneList#method=onShow</action>
       </menuitem>
-      <menuitem label="Região">
-        <icon>far:map fa-fw </icon>
-        <action>RegiaoFormList#method=onShow</action>
-      </menuitem>
-      <menuitem label="Pessoa">
-        <icon>fas:users fa-fw </icon>
-        <action>PessoaList#method=onShow</action>
-      </menuitem>
+      <menuitem label="Endereço">
+        <icon>fas:map-marked-alt fa-fw </icon>
+        <action>EnderecoList#method=onShow</action>
+      </menuitem>            
       <menuitem label="tipo">
         <icon>far:circle fa-fw </icon>
         <action>TipoFormList#method=onShow</action>
       </menuitem>
-      <menuitem label="Endereço">
-        <icon>fas:map-marked-alt fa-fw </icon>
-        <action>EnderecoList#method=onShow</action>
+      <menuitem label="Municipio">
+        <icon>fas:map-marker-alt fa-fw </icon>
+        <action>MunicipioList#method=onShow</action>
+      </menuitem>
+      <menuitem label="UF">
+        <icon>fas:globe fa-fw </icon>
+        <action>UfFormList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Região">
+        <icon>far:map fa-fw </icon>
+        <action>RegiaoFormList#method=onShow</action>
       </menuitem>
     </menu>
   </menuitem>
