@@ -10,7 +10,7 @@ class Regiao extends TRecord
 
     
 
-    use SystemChangeLogTrait;
+    //use SystemChangeLogTrait;
     /**
      * Constructor method
      */

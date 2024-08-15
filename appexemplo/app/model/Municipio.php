@@ -12,7 +12,7 @@ class Municipio extends TRecord
 
     
 
-    use SystemChangeLogTrait;
+    //use SystemChangeLogTrait;
     /**
      * Constructor method
      */

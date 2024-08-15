@@ -12,7 +12,7 @@ class Uf extends TRecord
 
     
 
-    use SystemChangeLogTrait;
+    //use SystemChangeLogTrait;
     /**
      * Constructor method
      */
@@ -23,7 +23,6 @@ class Uf extends TRecord
         parent::addAttribute('nom_uf');
         parent::addAttribute('sig_uf');
         parent::addAttribute('dat_exclusao');
-            
     }
 
     /**
@@ -44,7 +43,6 @@ class Uf extends TRecord
      */
     public function get_fk_cod_regiao()
     {
-    
         // loads the associated object
         if (empty($this->fk_cod_regiao))
             $this->fk_cod_regiao = new Regiao($this->cod_regiao);
@@ -74,7 +72,6 @@ class Uf extends TRecord
         {
             $this->municipio_fk_cod_uf_to_string = $municipio_fk_cod_uf_to_string;
         }
-
         $this->vdata['municipio_fk_cod_uf_to_string'] = $this->municipio_fk_cod_uf_to_string;
     }
 
@@ -94,15 +91,10 @@ class Uf extends TRecord
      */
     public function onBeforeDelete()
     {
-            
-
         if(Municipio::where('cod_uf', '=', $this->cod_uf)->first())
         {
             throw new Exception("Não é possível deletar este registro pois ele está sendo utilizado em outra parte do sistema");
         }
-    
     }
-
-    
 }
 

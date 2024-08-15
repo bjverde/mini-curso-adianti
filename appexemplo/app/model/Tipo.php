@@ -10,7 +10,7 @@ class Tipo extends TRecord
 
     
 
-    use SystemChangeLogTrait;
+    //use SystemChangeLogTrait;
     /**
      * Constructor method
      */
@@ -19,7 +19,6 @@ class Tipo extends TRecord
         parent::__construct($id, $callObjectLoad);
         parent::addAttribute('descricao');
         parent::addAttribute('dat_exclusao');
-            
     }
 
     /**
@@ -263,8 +262,6 @@ class Tipo extends TRecord
      */
     public function onBeforeDelete()
     {
-            
-
         if(Pedido::where('idtipo_pagamento', '=', $this->idtipo)->first())
         {
             throw new Exception("Não é possível deletar este registro pois ele está sendo utilizado em outra parte do sistema");
@@ -278,10 +275,7 @@ class Tipo extends TRecord
         if(Telefone::where('idtipo_telefone', '=', $this->idtipo)->first())
         {
             throw new Exception("Não é possível deletar este registro pois ele está sendo utilizado em outra parte do sistema");
-        }
-    
+        }    
     }
-
-    
 }
 

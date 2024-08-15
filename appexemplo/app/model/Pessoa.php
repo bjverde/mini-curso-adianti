@@ -14,7 +14,7 @@ class Pessoa extends TRecord
 
     
 
-    use SystemChangeLogTrait;
+    //use SystemChangeLogTrait;
     /**
      * Constructor method
      */
