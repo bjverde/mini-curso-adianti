@@ -47,10 +47,15 @@ LICENSE
 app/config/sample.ini
 app/config/sample.php
 app/config/communication.ini
+app/config/communication.php
 app/config/framework_hashes.php
+app/config/install.ini
+app/config/installed.ini
 app/config/ldap.ini
 app/config/log.ini
+app/config/log.php
 app/config/permission.ini
+app/config/permission.php
 app/config/unit_a.ini
 app/config/unit_b.ini
 app/config/unit_database.php
@@ -62,9 +67,11 @@ app/control/admin/**
 !app/control/admin/SystemRegistrationForm.class.php
 !app/control/admin/SystemUserForm.class.php
 !app/control/admin/SystemUserList.class.php
+app/control/builder
 app/control/communication
+app/control/install
 app/control/log
-app/control/public/PublicView.class.php
+app/control/public
 app/control/start
 app/control/CommonPage.class.php
 app/control/MessageList.class.php
@@ -119,12 +126,16 @@ app/reports/
 app/resources/
 app/service/TestService.php
 app/service/auth/
+app/service/builder/
 app/service/cli/
+app/service/log/
 app/service/rest/
 app/service/system/
 
+app/templates/theme-builder/
 app/templates/theme3/
 app/templates/theme3_v5/
+app/templates/theme3-adminlte3/
 app/templates/theme4/
 app/templates/theme4_v5/
 app/templates/theme_formdinv/
