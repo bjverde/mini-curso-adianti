@@ -37,7 +37,7 @@ class MunicipioList extends TPage
         $criteria_cod_uf = new TCriteria();
 
         $id_municipio = new TEntry('id_municipio');
-        $cod_uf = new TDBCombo('cod_uf', 'maindatabase', 'Uf', 'cod_uf', '{cod_uf}','cod_uf asc' , $criteria_cod_uf );
+        $cod_uf = new TDBCombo('cod_uf', 'maindatabase', 'Uf', 'cod_uf', '{nom_uf}','cod_uf asc' , $criteria_cod_uf );
         $nom_municipio = new TEntry('nom_municipio');
 
 
@@ -48,7 +48,7 @@ class MunicipioList extends TPage
         $nom_municipio->setSize('100%');
 
         $row1 = $this->form->addFields([new TLabel("Id:", null, '14px', null)],[$id_municipio]);
-        $row2 = $this->form->addFields([new TLabel("Cod uf:", null, '14px', null)],[$cod_uf]);
+        $row2 = $this->form->addFields([new TLabel("uf:", null, '14px', null)],[$cod_uf]);
         $row3 = $this->form->addFields([new TLabel("nome:", null, '14px', null)],[$nom_municipio]);
 
         // keep the form filled during navigation with session data
@@ -76,7 +76,7 @@ class MunicipioList extends TPage
         $this->datagrid->setHeight(250);
 
         $column_id_municipio = new TDataGridColumn('id_municipio', "id", 'center' , '70px');
-        $column_cod_uf = new TDataGridColumn('cod_uf', "Cod uf", 'left');
+        $column_fk_cod_uf_nom_uf = new TDataGridColumn('fk_cod_uf->nom_uf', "uf", 'left');
         $column_nom_municipio = new TDataGridColumn('nom_municipio', "nome", 'left');
 
         $order_id_municipio = new TAction(array($this, 'onReload'));
@@ -84,7 +84,7 @@ class MunicipioList extends TPage
         $column_id_municipio->setAction($order_id_municipio);
 
         $this->datagrid->addColumn($column_id_municipio);
-        $this->datagrid->addColumn($column_cod_uf);
+        $this->datagrid->addColumn($column_fk_cod_uf_nom_uf);
         $this->datagrid->addColumn($column_nom_municipio);
 
         $action_onEdit = new TDataGridAction(array('MunicipioForm', 'onEdit'));
@@ -627,6 +627,4 @@ class MunicipioList extends TPage
 
         TDataGrid::replaceRowById(__CLASS__.'_datagrid', $row->id, $row);
     }
-
 }
-
