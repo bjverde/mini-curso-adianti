@@ -37,6 +37,55 @@ https://adiantiframework.com.br/guia-rapido
 # Classe modelo
 Além do arquivo de config no banco. As classes model representam as tabelas do banco de dados. Uma classe modelo é filha de TRecord. Esta classe do framework fornece métodos básicos de persistência como store(), delete() e load() que manipulam um objeto na base de dados.
 
+## Exemplo de classe model
+```php
+class Telefone extends TRecord
+{
+    const TABLENAME  = 'telefone';
+    const PRIMARYKEY = 'idtelefone';
+    const IDPOLICY   =  'serial'; // {max, serial}
+
+    const DELETEDAT  = 'dat_exclusao';
+    const CREATEDAT  = 'dat_inclusao';
+    const UPDATEDAT  = 'dat_alteracao';
+
+    private $fk_idpessoa;
+    private $fk_idtipo_telefone;
+    private $fk_idendereco;
+    private $idpessoa;
+    private $idtipo_telefone;
+    private $idendereco;
+
+    /**
+     * Constructor method
+     */
+    public function __construct($id = NULL, $callObjectLoad = TRUE)
+    {
+        parent::__construct($id, $callObjectLoad);
+        parent::addAttribute('numero');
+        parent::addAttribute('idpessoa');
+        parent::addAttribute('idtipo_telefone');
+        parent::addAttribute('idendereco');
+        parent::addAttribute('sit_fixo');
+        parent::addAttribute('whastapp');
+        parent::addAttribute('telegram');
+        parent::addAttribute('dat_inclusao');
+        parent::addAttribute('dat_alteracao');
+        parent::addAttribute('dat_exclusao');
+    }
+```
+## Explicando as contantes
+* TABLENAME define o nome da tabela que a classe de modelo irá manipular.
+* PRIMARYKEY define o campo de chave primária. O framework não manipula chaves compostas.
+* IDPOLICY define a estratégia para geração de novos ID's. max+1 ou serial (deixa o campo de chave primária vazio e o banco de dados decide seu novo valor).
+* CREATEDAT informe o campo que será preenchido com data e hora no momento do insert
+* UPDATEDAT informe o campo que será preenchido com data e hora no momento do update
+* DELETEDAT informe o campo que será preenchido com data e hora no momento do delete. Se esse campo estiver com valor null é um registro válido. Se tiver com preenchido, foi deletado logicamente.
+
+
+O método addAttribute() limita quais atributos deste objeto serão persistidos (gravados) na base de dados. Quaisquer atributos que não estejam no addAttribute() serão ignorados pelo mecanismo de persistência. Caso o addAttribute() não seja chamado nenhuma vez, todos atributos serão persistidos. 
+
+
 Veja exemplos no Guia Rápido do Adianti
 https://adiantiframework.com.br/guia-rapido
 
