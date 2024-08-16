@@ -13,8 +13,9 @@ class Telefone extends TRecord
     private $fk_idpessoa;
     private $fk_idtipo_telefone;
     private $fk_idendereco;
-
-    
+    private $idpessoa;
+    private $idtipo_telefone;
+    private $idendereco;
 
     //use SystemChangeLogTrait;
     /**
@@ -33,7 +34,6 @@ class Telefone extends TRecord
         parent::addAttribute('dat_inclusao');
         parent::addAttribute('dat_alteracao');
         parent::addAttribute('dat_exclusao');
-            
     }
 
     /**
@@ -54,7 +54,6 @@ class Telefone extends TRecord
      */
     public function get_fk_idpessoa()
     {
-    
         // loads the associated object
         if (empty($this->fk_idpessoa))
             $this->fk_idpessoa = new Pessoa($this->idpessoa);
@@ -80,7 +79,6 @@ class Telefone extends TRecord
      */
     public function get_fk_idtipo_telefone()
     {
-    
         // loads the associated object
         if (empty($this->fk_idtipo_telefone))
             $this->fk_idtipo_telefone = new Tipo($this->idtipo_telefone);
@@ -106,7 +104,6 @@ class Telefone extends TRecord
      */
     public function get_fk_idendereco()
     {
-    
         // loads the associated object
         if (empty($this->fk_idendereco))
             $this->fk_idendereco = new Endereco($this->idendereco);
@@ -114,7 +111,4 @@ class Telefone extends TRecord
         // returns the associated object
         return $this->fk_idendereco;
     }
-
-    
 }
-
