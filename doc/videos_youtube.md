@@ -2,6 +2,11 @@
 https://www.youtube.com/watch?v=HPWBY6cl-LA&list=PLLExJS8y-2LKjK05hVEL3sHr8XupCyZt9
 
 
+## [Canal ScriptDevBR][https://www.youtube.com/@dev-fabriciobr]
+* [Conexão Banco de Dados Adianti Framework](https://www.youtube.com/watch?v=koaxMS7WHgA)
+* https://www.youtube.com/watch?v=1f3biISX4Ag
+* https://www.youtube.com/watch?v=PunfmEjWm7A
+* https://www.youtube.com/watch?v=ly4C2oqpzK8&t=185s
 
 ## [Canal Ico Menezes](https://www.youtube.com/@icomenezes/videos)
 * [RestFull + Adianti Framework + Postman - Endpoints com todos os verbos](https://www.youtube.com/watch?v=TsgcSq1fgzc)
