@@ -2,7 +2,7 @@
 https://www.youtube.com/watch?v=HPWBY6cl-LA&list=PLLExJS8y-2LKjK05hVEL3sHr8XupCyZt9
 
 
-## [Canal ScriptDevBR][https://www.youtube.com/@dev-fabriciobr]
+## [Canal ScriptDevBR](https://www.youtube.com/@dev-fabriciobr)
 * [Conexão Banco de Dados Adianti Framework](https://www.youtube.com/watch?v=koaxMS7WHgA)
 * https://www.youtube.com/watch?v=1f3biISX4Ag
 * https://www.youtube.com/watch?v=PunfmEjWm7A
