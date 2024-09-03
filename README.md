@@ -8,6 +8,5 @@ https://adiantiframework.com.br/cursos
 # [Conhecimentos requeridos.](doc/conhecimento_requerido.md)
 # [Estrutura de diretórios](doc/estrutra_dir.md)
 # [Banco de dados](doc/banco_model.md)
+# [Vídeos sobre Adianti no YouTube](doc/videos_youtube.md)
 
-# Cursos sobre o Adianti
-https://www.youtube.com/watch?v=HPWBY6cl-LA&list=PLLExJS8y-2LKjK05hVEL3sHr8XupCyZt9
