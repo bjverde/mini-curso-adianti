@@ -2,6 +2,9 @@
 
 O Adianti pode conectar com diversos SGBDs:  PostgreSQL, MySQL, SQLite, Oracle, Sql Server, ou Firebird.
 
+
+## Arquivo config
+
 Configure o conector dentro da aplicação:
 * Arquivo INI: app/config/meu-banco.ini
 * Arquivo PHP: app/config/meu-banco.php
@@ -94,12 +97,18 @@ O método addAttribute() limita quais atributos deste objeto serão persistidos 
 Veja exemplos no Guia Rápido do Adianti
 https://adiantiframework.com.br/guia-rapido
 
-Sobre objetos de banco
-https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Persistence&submenu=Objects
+
 
 # Conexões
 
+Nesse ponto você tem um arquivo config apontando o banco correto e em alguns casos terá uma classe model que representa uma tabela
+
 https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Persistence&submenu=Connections
+
+# Objetos
+
+Sobre objetos de banco
+https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Persistence&submenu=Objects
 
 
 # Navegação
