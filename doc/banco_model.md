@@ -101,9 +101,24 @@ https://adiantiframework.com.br/guia-rapido
 
 # Conexões
 
-Nesse ponto você tem um arquivo config apontando o banco correto e em alguns casos terá uma classe model que representa uma tabela
+Nesse ponto você tem um arquivo config apontando o banco correto e em alguns casos terá uma classe model que representa uma tabela. A model não é obrigatorio pois vc pode fazer consultas diretamente usando Select do SQL.
 
+No Adianti Tutor, verá vários exemplo parte conexões
 https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Persistence&submenu=Connections
+
+## Exemplo simples.
+No exemplo abaixo é aberta um conexão com o arquivo de config de nome samples
+```php
+try { 
+    TTransaction::open('samples'); // open transaction
+    $conn = TTransaction::get(); // get PDO connection   
+    // SEU CODIGO AQUI
+    TTransaction::close(); // close transaction 
+} 
+catch (Exception $e){ 
+    new TMessage('error', $e->getMessage()); 
+}
+```
 
 # Objetos
 
