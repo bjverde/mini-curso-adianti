@@ -28,11 +28,8 @@ Para quem não tem esses conhecimentos recomendo os cursos abaixo:
     <br>Curso em vídeo, Gustavo Guanabara. PHP POO
     <br><img src="https://img.youtube.com/vi/KlIL63MeyMY/maxresdefault.jpg" width="400"/>
 </a>
-<br>
-<a href="https://www.youtube.com/watch?v=O73xbQvGhHk&list=PL0N5TAOhX5E9eJ9Ix6YUIgEw3lNmaIEE9">
-    <br>Curso de PHP 8 do Zero ao Profissional
-    <br><img src="https://img.youtube.com/vi/O73xbQvGhHk/maxresdefault.jpg" width="400"/>
-</a>
+
+* [Curso de PHP 8 do Zero ao Profissional](https://www.youtube.com/watch?v=O73xbQvGhHk&list=PL0N5TAOhX5E9eJ9Ix6YUIgEw3lNmaIEE9)
 
 
 
