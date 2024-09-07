@@ -35,13 +35,16 @@ A estrutura pode ser separada basicamente em 6 partes:
   * view (diretório) - Classes de apresentação reutilizáveis
 
 
-No Link a seguir detalha a estrutura de diretórios utilizada pelo Adianti framework. Todas os componente do framework estão localizados sob o diretório /lib/adianti. O diretório /lib ainda possui outras bibliotecas utilizadas pelo framework. O diretório app contém a aplicação desenvolvida. 
-
-
+## Detalhando os outros direitos
+Nos Links abaixos detalha a estrutura de diretórios utilizada pelo Adianti framework.
 
 https://adiantiframework.com.br/estrutura
 
-[Vídeo Estrutura do Projeto no Adianti Framework, por ScriptDevBR (Fabricio)](https://www.youtube.com/watch?v=1f3biISX4Ag)
+<br>
+<a href="https://www.youtube.com/watch?v=1f3biISX4Ag">
+    <br>Vídeo Estrutura do Projeto no Adianti Framework, por ScriptDevBR (Fabricio)
+    <br><img src="https://img.youtube.com/vi/1f3biISX4Ag/maxresdefault.jpg" width="400"/>
+</a>
 
 # Navegação
 * [Súmario](../README.md)
