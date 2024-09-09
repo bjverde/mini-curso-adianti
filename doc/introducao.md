@@ -27,10 +27,10 @@ O Adianti Framework é uma ótima opção para desenvolvedores PHP que buscam um
 
 Compreendendo o ambiente do Adianti e todos os elementos envolvidos
 
-* Adianti Soluttion - É a empresa criada responsável pela criação e manutenção do Adianti FrameWork que tem uma licença livre 
-* Adianti Templete  - O Template é um grande gabarito para criação de novos projetos que possui controle de login e permissões de acesso por usuários, grupos de usuários e programas, controles multi unidade, e multi idioma, gestão de documentos, messageria e notificações, logs de acesso, logs de alterações, de SQL, logs de HTTP, REST.
+* [Adianti Soluttion](https://www.adianti.com.br/) - É a empresa criada responsável pela criação e manutenção do Adianti FrameWork que tem uma licença livre 
+* [Adianti Templete](https://adiantiframework.com.br/template)  - O Template é um grande gabarito para criação de novos projetos que possui controle de login e permissões de acesso por usuários, grupos de usuários e programas, controles multi unidade, e multi idioma, gestão de documentos, messageria e notificações, logs de acesso, logs de alterações, de SQL, logs de HTTP, REST.
 * Adianti FrameWork - Você pode baixar o Framework puro caso não precise dos Templates padrão de sistemas em seus projetos. Geralmente usuários avançados utilizam o Framework puro para construir seus próprios controles de login, permissão, menu, template e outros.
-* Adianti Tutor - O Tutor é um pequeno sistema construído com o Adianti Framework que pretende demonstrar algumas funcionalidades do Framework. O tutor não pretende ser uma aplicação para usuário final, mas apenas demonstrar as características do framework para desenvolvedores. 
+* [Adianti Tutor](https://adiantiframework.com.br/tutor) - O Tutor é um pequeno sistema construído com o Adianti Framework que pretende demonstrar algumas funcionalidades do Framework. O tutor não pretende ser uma aplicação para usuário final, mas apenas demonstrar as características do framework para desenvolvedores. 
 * Adianti Reports and BI - Dashboards analíticos e Relatórios para Empresas e Produtores de Software.
 * Adianti Studio - antiga IDE feia em PHP-GTK para trabalhar com o Adianti FrameWork. Foi descontinuada
 * [Mad Builder](https://www.madbuilder.com.br) - Ferramenta LowCode web para construir sistema usando o Adianti Templete com alguns componentes próprios.
