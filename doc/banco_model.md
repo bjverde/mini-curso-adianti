@@ -83,6 +83,8 @@ class Telefone extends TRecord
     }
 ```
 ## Explicando as contantes
+[Adianti Framework 7.6 traz atributos automáticos que registram o usuário por trás de cada criação, alteração e exclusão de dados.](https://www.instagram.com/reel/C4eG16qrXgk/)
+
 * TABLENAME define o nome da tabela que a classe de modelo irá manipular.
 * PRIMARYKEY define o campo de chave primária. O framework não manipula chaves compostas.
 * IDPOLICY define a estratégia para geração de novos ID's. max+1 ou serial (deixa o campo de chave primária vazio e o banco de dados decide seu novo valor).
@@ -124,6 +126,9 @@ catch (Exception $e){
 
 Sobre objetos de banco
 https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Persistence&submenu=Objects
+
+
+[O Adianti Framework 7.6 agora conta com comandos de baixo nível para manipulação de dados, como insert's, update's, e delete's.](https://www.instagram.com/reel/C4MFTFbt-rh/)
 
 
 # Navegação
