@@ -6,6 +6,7 @@ Para trabalhar com Adianti Framework é recomendavel que tenha conhecimento das 
 * HTML 5 - desejável 
 * JavaScript - desejável
 * Arquitetura MVC em PHP
+* Api REST
 
 ## Cursos recomendados
 Para quem não tem esses conhecimentos recomendo os cursos abaixo:
