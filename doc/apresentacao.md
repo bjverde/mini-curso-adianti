@@ -1,4 +1,4 @@
-# Introdução
+# Apresentação e Visão Geral
 
 ## Adianti Framework
 Adianti Framework é um framework de desenvolvimento PHP voltado para a construção rápida de aplicações web, especialmente sistemas de gestão, como ERP, CRM, e outros aplicativos de back-office. Foi criado por Pablo Dall’Oglio e é amplamente utilizado no Brasil.
@@ -11,7 +11,7 @@ Principais Características:
 * Interface Web Moderna: Permite a construção de interfaces modernas e responsivas, utilizando templates e temas que podem ser customizados.
 * Internacionalização: Suporta múltiplos idiomas, permitindo que a aplicação seja facilmente adaptada para diferentes regiões.
 
-## Casos de Uso Comuns:
+## Casos de uso mais comuns:
 * Desenvolvimento de sistemas de gestão interna (back-office).
 * Aplicações administrativas e de controle.
 * Sistemas de cadastro e gerenciamento de informações.
