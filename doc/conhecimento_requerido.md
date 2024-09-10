@@ -39,3 +39,5 @@ Para quem não tem esses conhecimentos recomendo os cursos abaixo:
 * [Súmario](../README.md)
     * [Apresentação e Visão geral](apresentacao.md)
     * [Conhecimentos requeridos](conhecimento_requerido.md)
+    * [Introdução](introducao.md)
+    * [Instalação](instalacao.md)
