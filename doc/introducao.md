@@ -60,5 +60,5 @@ tabelas, divs, frames, caixas, e outros, que permitem empilhar elementos
 
 # Navegação
 * [Súmario](../README.md)
-    * [Apresentação e Visão geral](doc/apresentacao.md)
-    * [Conhecimentos requeridos](doc/conhecimento_requerido.md)
+    * [Apresentação e Visão geral](apresentacao.md)
+    * [Conhecimentos requeridos](conhecimento_requerido.md)
