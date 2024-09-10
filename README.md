@@ -7,7 +7,7 @@ https://adiantiframework.com.br/cursos
 # [Apresentação e Visão geral](doc/apresentacao.md)
 # [Conhecimentos requeridos](doc/conhecimento_requerido.md)
 # [Introdução](doc/introducao.md)
-# [Estrutura de diretórios](doc/estrutra_dir.md)
+# [Instalação](doc/instalacao.md)
 # [Banco de dados](doc/banco_model.md)
 # [Vídeos complementares sobre Adianti no YouTube](doc/videos_youtube.md)
 
