@@ -30,7 +30,7 @@ O Adianti framework utiliza o termo template para duas coisas diferentes:
 * Template o esqueleto de sistema feito com Adianti, veja [Apresentação > Ambiente](apresentacao.md#ambiente-adianti)
 * Template o esquema layout para o sistema.
 
-Para evitar confunção desse ponto para frente o termo template será sempre o esqueleto e tema será o esquema cores e layout. 
+Para evitar confusão desse ponto para frente o termo template será sempre o esqueleto e termo tema será o esquema cores e layout. 
 
 O Adianti utiliza o [Twig](https://twig.symfony.com/) que é um motor de templates (template engine) para PHP. Ele permite separar a lógica da aplicação (PHP) da apresentação (HTML), promovendo uma arquitetura de código mais organizada e manutenível. Em conjunto com o [Admin LTE](https://adminlte.io/) para criar o Layout principal dos sistema criados. O Layout pode ser no estilo bootstrap ou [Material ](https://github.com/gurayyarar/AdminBSBMaterialDesign)
 
@@ -41,7 +41,21 @@ O Adianti utiliza o [Twig](https://twig.symfony.com/) que é um motor de templat
 
 No GitHub existe um projeto com vários temas. Veja https://github.com/bjverde/adianti-theme
 
+## [Estrutura de diretórios](estrutra_dir.md)
 
+# Um controlador de página
+Uma página é representada por uma classe de controle, que poder conter componentes do Framework: como formulários, datagrids, campos, botões, links e etc.
+
+As classes de controle podem ser filhas de TPage ou de TWindow.
+
+TPage são exibidas no quadro central do layout e as filhas de TWindow são sempre
+exibidas em uma nova janela.
+
+Existem ainda as cortinas laterais, vistas mais adiante.
+A classe a seguir tem como função somente exibir uma imagem na página, o que é
+realizado pela criação de um objeto TImage. Logo em seguida este objeto é adicionado à
+página pelo método add(). Para criar layout’s mais elaborados usamos containers como
+tabelas, divs, frames, caixas, e outros, que permitem empilhar elementos
 
 
 # Navegação
