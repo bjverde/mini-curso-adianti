@@ -14,6 +14,10 @@ O Adianti tem vários componentes prontos abaixo alguns exemplos
 
 * [O componente de calendário do Framework já acompanha recursos de clique e arraste, e você pode conectar o calendário a um formulário de criação/edição que abre em cortina. A vantagem da cortina é que permite ao usuário criar/editar o evento sem perder o foco da tela.](https://www.instagram.com/reel/Cq_nX18od1m/)
 
+* [Cortina lateral com filtragem. que abre de forma deslizante, e oferece um conjunto de filtros para você aplicar sobre suas datagrids.](https://www.instagram.com/reel/CqG3A3MvUCM/)
+
+* [Cortinal lateral para edição de dados](https://www.instagram.com/p/CosvL_RNkEi/)
+
 
 ## Outros 
 
@@ -29,4 +33,6 @@ Visite nosso site e conheça mais sobre nosso Framework.](https://www.instagram.
 * [códigos personalizados!](https://www.instagram.com/reel/C6M4biira5X/)
 
 * [Escala likert. Como usar esse componente muito utilizado para fazer pesquisas.](https://www.instagram.com/reel/C58Mupds42Y/)
+
+* [Componente de Gantt? veio na versão 7.5](https://www.instagram.com/reel/CnVMKfKrLLt/)
 
