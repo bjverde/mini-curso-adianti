@@ -28,6 +28,20 @@ Não tem objetico ser um framework mais genetico com os listados abaixo.
 ## Templates para a construção de sistemas
 
 
+[Seja qual for o tamanho da tela, nossos templates acompanham a demanda, proporcionando uma experiência de uso facilitada. Os menus se adaptam automaticamente, permitindo uma navegação fluida em qualquer dispositivo. E não para por aí! Os formulários, datagrids e outros componentes também se ajustam perfeitamente ao espaço disponível.](https://www.instagram.com/reel/Cu72aIZvb9F/)
+
+[Descubra a magia dos formulários responsivos!](https://www.instagram.com/reel/CuFxt4aPlDk/)
+
+[Queremos que suas datagrids se adaptem perfeitamente a telas pequenas, e é por isso que desenvolvemos recursos incríveis no nosso Framework. ✨
+
+✔️ Auto-esconder colunas: Nossas datagrids, assim que configuradas, ajustam-se automaticamente. Assim, você visualiza apenas as informações essenciais, mantendo a clareza e usabilidade.
+
+✔️ Barra de rolagem horizontal: Não importa o tamanho da sua tela, nossas datagrids permitem uma navegação suave e intuitiva. Com a barra de rolagem horizontal, você pode explorar todas as informações sem perder nada.
+
+Conheça mais desses recursos testando o Tutor, uma aplicação com microexemplos de uso do Framework.](https://www.instagram.com/reel/CukrQpUoFZ4/)
+
+Experimente a praticidade e a elegância dos templates responsivos e aproveite o máximo de cada interação.
+
 
 # Navegação
 * [Súmario](../README.md)
