@@ -42,6 +42,13 @@ Conheça mais desses recursos testando o Tutor, uma aplicação com microexemplo
 
 Experimente a praticidade e a elegância dos templates responsivos e aproveite o máximo de cada interação.
 
+https://twig.symfony.com/
+
+
+https://github.com/bjverde/adianti-theme
+
+* Pagina principal do projeto Admin LTE - https://adminlte.io/
+* Os temas com Material são baseado no https://github.com/gurayyarar/AdminBSBMaterialDesign
 
 # Navegação
 * [Súmario](../README.md)
