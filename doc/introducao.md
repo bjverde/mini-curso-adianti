@@ -16,15 +16,13 @@
 * Responsivo Template adaptado para tablets e smartphones
 * [Páginas, janelas, cortinas deslizantes. O que muitos batem cabeça para implementar em outras tecnologias, no Adianti Framework é tão transparente que você só precisa de uma linha para habilitar estes comportamento. O resto, o framework cuida de tudo.](https://www.instagram.com/reel/C8p5gzdJuh6/)
 
+> [!TIP]
+> O Adianti *não*  tem objetico ser um framework mais genetico com os listados abaixo. 
 
-## Outros FrameWorks
-O Adianti *não*  tem objetico ser um framework mais genetico com os listados abaixo. 
+# [Estrutura de diretórios](estrutra_dir.md)
+Conheça a [Estrutura de diretórios](estrutra_dir.md) do adianti antes ver alguns do elemenetos iniciais.
 
-* Laravel - O Laravel tem como objetivo facilitar o desenvolvimento rápido de aplicações web, fornecendo uma sintaxe elegante e intuitiva. O Laravel é ideal para quem busca um desenvolvimento ágil, com menos configuração e mais ferramentas prontas.
-* Symfony- O Symfony tem como objetivo ser um framework robusto e modular para grandes projetos. Ele é conhecido pela sua flexibilidade e pela capacidade de ser customizado ao extremo. O Symfony é uma ótima escolha para aplicações complexas e de nível empresarial, onde o controle granular sobre os componentes é essencial. Além disso, seus componentes são amplamente reutilizados por outros frameworks e bibliotecas.
-* CodeIgniter - O CodeIgniter tem como objetivo ser um framework leve, rápido e fácil de aprender, sem uma curva de aprendizado muito acentuada. Seu foco é em fornecer um ambiente simples, sem muitas dependências externas, ideal para aplicações menores ou para quem precisa de uma solução rápida, com desempenho eficiente e menos configurações.
-
-## Templates para a construção de sistemas
+# Templates para a construção de sistemas
 
 O Adianti framework utiliza o termo template para duas coisas diferentes:
 * Template o esqueleto de sistema feito com Adianti, veja [Apresentação > Ambiente](apresentacao.md#ambiente-adianti)
@@ -41,7 +39,6 @@ O Adianti utiliza o [Twig](https://twig.symfony.com/) que é um motor de templat
 
 No GitHub existe um projeto com vários temas. Veja https://github.com/bjverde/adianti-theme
 
-## [Estrutura de diretórios](estrutra_dir.md)
 
 # Um controlador de página
 Uma página é representada por uma classe de controle, que poder conter componentes do Framework: como formulários, datagrids, campos, botões, links e etc.
@@ -62,3 +59,5 @@ tabelas, divs, frames, caixas, e outros, que permitem empilhar elementos
 * [Súmario](../README.md)
     * [Apresentação e Visão geral](apresentacao.md)
     * [Conhecimentos requeridos](conhecimento_requerido.md)
+    * [Introdução](introducao.md)
+    * [Instalação](instalacao.md)
