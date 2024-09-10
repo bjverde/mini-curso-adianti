@@ -28,21 +28,12 @@ O Adianti Framework é uma ótima opção para desenvolvedores PHP que buscam um
 Compreendendo o ambiente do Adianti e todos os elementos envolvidos
 
 * [Adianti Soluttion](https://www.adianti.com.br/) - É a empresa criada responsável pela criação e manutenção do Adianti FrameWork que tem uma licença livre 
-* [Adianti Templete](https://adiantiframework.com.br/template)  - O Template é um grande gabarito para criação de novos projetos que possui controle de login e permissões de acesso por usuários, grupos de usuários e programas, controles multi unidade, e multi idioma, gestão de documentos, messageria e notificações, logs de acesso, logs de alterações, de SQL, logs de HTTP, REST.
-* Adianti FrameWork - Você pode baixar o Framework puro caso não precise dos Templates padrão de sistemas em seus projetos. Geralmente usuários avançados utilizam o Framework puro para construir seus próprios controles de login, permissão, menu, template e outros.
-* [Adianti Tutor](https://adiantiframework.com.br/tutor) - O Tutor é um pequeno sistema construído com o Adianti Framework que pretende demonstrar algumas funcionalidades do Framework. O tutor não pretende ser uma aplicação para usuário final, mas apenas demonstrar as características do framework para desenvolvedores. 
-* Adianti Reports and BI - Dashboards analíticos e Relatórios para Empresas e Produtores de Software.
+* [Adianti Templete](https://adiantiframework.com.br/template)  - O Template é um grande gabarito para criação de novos projetos que possui controle de login e permissões de acesso por usuários, grupos de usuários e programas, controles multi unidade, e multi idioma, gestão de documentos, messageria e notificações, logs de acesso, logs de alterações, de SQL, logs de HTTP, REST. https://adiantiframework.com.br/template
+* [Adianti FrameWork](https://adiantiframework.com.br/) - Você pode baixar o Framework puro caso não precise dos Templates padrão de sistemas em seus projetos. Geralmente usuários avançados utilizam o Framework puro para construir seus próprios controles de login, permissão, menu, template e outros.
+* [Adianti Tutor](https://adiantiframework.com.br/tutor) - O Tutor é um pequeno sistema construído com o Adianti Framework que pretende demonstrar algumas funcionalidades do Framework. O tutor não pretende ser uma aplicação para usuário final, mas apenas demonstrar as características do framework para desenvolvedores. Procure o componente ou funcionalidade desejada e clique no icone de código para vez como é a implementação.[Tutor on-line](https://framework.adianti.me/tutor/)
+* [Adianti Reports and BI](https://www.adiantireports.com.br/) - Dashboards analíticos e Relatórios para Empresas e Produtores de Software.
 * Adianti Studio - antiga IDE feia em PHP-GTK para trabalhar com o Adianti FrameWork. Foi descontinuada
 * [Mad Builder](https://www.madbuilder.com.br) - Ferramenta LowCode web para construir sistema usando o Adianti Templete com alguns componentes próprios.
-
-### Template
-Nos links abaixo terá mais informações sobre o Template. De uma atenção especial a parte de log de acesso e controle de acesso
-* https://adiantiframework.com.br/template
-
-### Tutor
-Nos links abaixo terá mais informações sobre o Tutor
-* Sobre o Tutor e possibilidade de download https://adiantiframework.com.br/tutor
-* Tutor on-line https://framework.adianti.me/tutor/
 
 
 ## Licença 
