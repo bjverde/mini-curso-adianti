@@ -1,57 +1,64 @@
 # Introdução
 
-## Adianti Framework
-Adianti Framework é um framework de desenvolvimento PHP voltado para a construção rápida de aplicações web, especialmente sistemas de gestão, como ERP, CRM, e outros aplicativos de back-office. Foi criado por Pablo Dall’Oglio e é amplamente utilizado no Brasil.
-Principais Características:
-* Arquitetura MVC: Segue o padrão de arquitetura Model-View-Controller (MVC), que separa a lógica de negócios, a interface do usuário e o controle de fluxo da aplicação.
-* Widgets Reutilizáveis: Oferece uma vasta biblioteca de componentes visuais (widgets) como botões, tabelas, formulários, menus, e gráficos, que podem ser facilmente reutilizados em diferentes partes da aplicação.
-* ORM (Object-Relational Mapping): O framework inclui um ORM que facilita o mapeamento de classes e objetos PHP para tabelas de banco de dados, permitindo operações de CRUD (Create, Read, Update, Delete) com menos código.
-* Integração com Banco de Dados: Suporta múltiplos bancos de dados, como MySQL, PostgreSQL, SQLite, Oracle, entre outros, e permite trocar de banco de dados sem precisar alterar a lógica da aplicação.
-* Relatórios: Inclui ferramentas para a criação de relatórios em PDF e gráficos, o que é útil para aplicações de gestão que requerem a geração de relatórios.
-* Interface Web Moderna: Permite a construção de interfaces modernas e responsivas, utilizando templates e temas que podem ser customizados.
-* Internacionalização: Suporta múltiplos idiomas, permitindo que a aplicação seja facilmente adaptada para diferentes regiões.
+# Adianti Framework
 
-## Casos de Uso Comuns:
-* Desenvolvimento de sistemas de gestão interna (back-office).
-* Aplicações administrativas e de controle.
-* Sistemas de cadastro e gerenciamento de informações.
+É um framework de desenvolvimento PHP voltado para a construção rápida de aplicações web, especialmente sistemas de gestão, como ERP, CRM, e outros aplicativos de back-office. Vantegens do Adianti:
 
-## Vantagens:
-* Produtividade: Facilita a construção de aplicações complexas com menos esforço, graças à sua biblioteca de componentes e ferramentas integradas.
-* Comunidade: Tem uma comunidade ativa, principalmente no Brasil, com documentação em português e fóruns de discussão.
-* Flexibilidade: Pode ser utilizado para desenvolver desde pequenos sistemas até grandes aplicações empresariais.
-
-O Adianti Framework é uma ótima opção para desenvolvedores PHP que buscam uma solução eficiente e robusta para construir aplicações empresariais de forma rápida e estruturada.
-
-## Ambiente Adianti
-
-Compreendendo o ambiente do Adianti e todos os elementos envolvidos
-
-* Adianti Soluttion - É a empresa criada responsável pela criação e manutenção do Adianti FrameWork que tem uma licença livre 
-* Adianti Templete  - O Template é um grande gabarito para criação de novos projetos que possui controle de login e permissões de acesso por usuários, grupos de usuários e programas, controles multi unidade, e multi idioma, gestão de documentos, messageria e notificações, logs de acesso, logs de alterações, de SQL, logs de HTTP, REST.
-* Adianti FrameWork - Você pode baixar o Framework puro caso não precise dos Templates padrão de sistemas em seus projetos. Geralmente usuários avançados utilizam o Framework puro para construir seus próprios controles de login, permissão, menu, template e outros.
-* Adianti Tutor - O Tutor é um pequeno sistema construído com o Adianti Framework que pretende demonstrar algumas funcionalidades do Framework. O tutor não pretende ser uma aplicação para usuário final, mas apenas demonstrar as características do framework para desenvolvedores. 
-* Adianti Reports and BI - Dashboards analíticos e Relatórios para Empresas e Produtores de Software.
-* Adianti Studio - antiga IDE feia em PHP-GTK para trabalhar com o Adianti FrameWork. Foi descontinuada
-* Mad Builder - Ferramenta LowCode web para construir sistema usando o Adianti Templete com alguns componentes próprios.
-
-### Template
-Nos links abaixo terá mais informações sobre o Template. De uma atenção especial a parte de log de acesso e controle de acesso
-* https://adiantiframework.com.br/template
-
-### Tutor
-Nos links abaixo terá mais informações sobre o Tutor
-* Sobre o Tutor e possibilidade de download https://adiantiframework.com.br/tutor
-* Tutor on-line https://framework.adianti.me/tutor/
+* Componentes prontos para formulários, datagrids, relatórios, gráficos, etiquetas, kanban, calendários, e outros. Templates prontos com recursos de login, menus, responsividade, permissões de acesso, logs, mensagens, etc. Foque na regra de negócios e não em detalhes técnicos.
+* Compatível com PHP8
+* Código-fonte baseado em mais de 30 Design Patterns clássicos
+* Código limpo
+* Faça muito mais escrevendo menos linhas de código
+* Integrações - Integre sistemas usando REST, SOAP, e outros tipos
+* Segurança - Métodos de proteção contra SQL injection, session fixation, e outros
+* Muitos logs - Logs de acesso, de SQL, de API, de alteração de registros, de erros
+* Templates Templates Bootstrap, Material design, com recursos prontos
+* Responsivo Template adaptado para tablets e smartphones
+* [Páginas, janelas, cortinas deslizantes. O que muitos batem cabeça para implementar em outras tecnologias, no Adianti Framework é tão transparente que você só precisa de uma linha para habilitar estes comportamento. O resto, o framework cuida de tudo.](https://www.instagram.com/reel/C8p5gzdJuh6/)
 
 
-## Licença 
+## Outros FrameWorks
+O Adianti *não*  tem objetico ser um framework mais genetico com os listados abaixo. 
 
-Resuminod o uso é livre. Uso Permitido. Você tem permissão para usar, copiar, modificar e distribuir o Software e sua documentação, com ou sem modificação, para qualquer propósito, desde que as seguintes condições sejam atendidas
+* Laravel - O Laravel tem como objetivo facilitar o desenvolvimento rápido de aplicações web, fornecendo uma sintaxe elegante e intuitiva. O Laravel é ideal para quem busca um desenvolvimento ágil, com menos configuração e mais ferramentas prontas.
+* Symfony- O Symfony tem como objetivo ser um framework robusto e modular para grandes projetos. Ele é conhecido pela sua flexibilidade e pela capacidade de ser customizado ao extremo. O Symfony é uma ótima escolha para aplicações complexas e de nível empresarial, onde o controle granular sobre os componentes é essencial. Além disso, seus componentes são amplamente reutilizados por outros frameworks e bibliotecas.
+* CodeIgniter - O CodeIgniter tem como objetivo ser um framework leve, rápido e fácil de aprender, sem uma curva de aprendizado muito acentuada. Seu foco é em fornecer um ambiente simples, sem muitas dependências externas, ideal para aplicações menores ou para quem precisa de uma solução rápida, com desempenho eficiente e menos configurações.
 
-No link poderá ver a licença detalhada
-https://adiantiframework.com.br/license
+## Templates para a construção de sistemas
+
+O Adianti framework utiliza o termo template para duas coisas diferentes:
+* Template o esqueleto de sistema feito com Adianti, veja [Apresentação > Ambiente](apresentacao.md#ambiente-adianti)
+* Template o esquema layout para o sistema.
+
+Para evitar confusão desse ponto para frente o termo template será sempre o esqueleto e termo tema será o esquema cores e layout. 
+
+O Adianti utiliza o [Twig](https://twig.symfony.com/) que é um motor de templates (template engine) para PHP. Ele permite separar a lógica da aplicação (PHP) da apresentação (HTML), promovendo uma arquitetura de código mais organizada e manutenível. Em conjunto com o [Admin LTE](https://adminlte.io/) para criar o Layout principal dos sistema criados. O Layout pode ser no estilo bootstrap ou [Material ](https://github.com/gurayyarar/AdminBSBMaterialDesign)
+
+[Os temas são responsivos: seja qual for o tamanho da tela vai acompanham a demanda, proporcionando uma experiência de uso facilitada. Os menus se adaptam automaticamente, permitindo uma navegação fluida em qualquer dispositivo. E não para por aí! Os formulários, datagrids e outros componentes também se ajustam perfeitamente ao espaço disponível.](https://www.instagram.com/reel/Cu72aIZvb9F/)
+
+[Veja exemplo de formulários responsivos!](https://www.instagram.com/reel/CuFxt4aPlDk/)
+
+
+No GitHub existe um projeto com vários temas. Veja https://github.com/bjverde/adianti-theme
+
+## [Estrutura de diretórios](estrutra_dir.md)
+
+# Um controlador de página
+Uma página é representada por uma classe de controle, que poder conter componentes do Framework: como formulários, datagrids, campos, botões, links e etc.
+
+As classes de controle podem ser filhas de TPage ou de TWindow.
+
+TPage são exibidas no quadro central do layout e as filhas de TWindow são sempre
+exibidas em uma nova janela.
+
+Existem ainda as cortinas laterais, vistas mais adiante.
+A classe a seguir tem como função somente exibir uma imagem na página, o que é
+realizado pela criação de um objeto TImage. Logo em seguida este objeto é adicionado à
+página pelo método add(). Para criar layout’s mais elaborados usamos containers como
+tabelas, divs, frames, caixas, e outros, que permitem empilhar elementos
 
 
 # Navegação
 * [Súmario](../README.md)
+    * [Apresentação e Visão geral](doc/apresentacao.md)
+    * [Conhecimentos requeridos](doc/conhecimento_requerido.md)

@@ -1,12 +1,20 @@
 # Banco de dados
 
-O Adianti pode conectar com diversos banco:  PostgreSQL, MySQL, SQLite, Oracle, Sql Server, ou Firebird.
+O Adianti pode conectar com diversos SGBDs:  PostgreSQL, MySQL, SQLite, Oracle, Sql Server, ou Firebird.
+
+
+## Arquivo config
 
 Configure o conector dentro da aplicação:
 * Arquivo INI: app/config/meu-banco.ini
 * Arquivo PHP: app/config/meu-banco.php
 
 Cada banco de dados deve ser configurado na pasta app/config por um INI ou PHP. Para usar um conector, você deve ter o driver correto habilitado no php.ini.
+
+Vc pode poder inumeros conectores um para cada banco ou SGBD diferente. Exemplos:
+* log no sqlite
+* acesso no mysql
+* arquivo no postgresql
 
 > [!TIP]
 > Recomento usar arquivos PHP, assim terá um pouco mais de segurança para seu sistema. Arquivos INI por padrão o Apache mostrar o seu conteúdo diferente do arquivo PHP
@@ -75,6 +83,8 @@ class Telefone extends TRecord
     }
 ```
 ## Explicando as contantes
+[Adianti Framework 7.6 traz atributos automáticos que registram o usuário por trás de cada criação, alteração e exclusão de dados.](https://www.instagram.com/reel/C4eG16qrXgk/)
+
 * TABLENAME define o nome da tabela que a classe de modelo irá manipular.
 * PRIMARYKEY define o campo de chave primária. O framework não manipula chaves compostas.
 * IDPOLICY define a estratégia para geração de novos ID's. max+1 ou serial (deixa o campo de chave primária vazio e o banco de dados decide seu novo valor).
@@ -88,6 +98,37 @@ O método addAttribute() limita quais atributos deste objeto serão persistidos 
 
 Veja exemplos no Guia Rápido do Adianti
 https://adiantiframework.com.br/guia-rapido
+
+
+
+# Conexões
+
+Nesse ponto você tem um arquivo config apontando o banco correto e em alguns casos terá uma classe model que representa uma tabela. A model não é obrigatorio pois vc pode fazer consultas diretamente usando Select do SQL.
+
+No Adianti Tutor, verá vários exemplo parte conexões
+https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Persistence&submenu=Connections
+
+## Exemplo simples.
+No exemplo abaixo é aberta um conexão com o arquivo de config de nome samples
+```php
+try { 
+    TTransaction::open('samples'); // open transaction
+    $conn = TTransaction::get(); // get PDO connection   
+    // SEU CODIGO AQUI
+    TTransaction::close(); // close transaction 
+} 
+catch (Exception $e){ 
+    new TMessage('error', $e->getMessage()); 
+}
+```
+
+# Objetos
+
+Sobre objetos de banco
+https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Persistence&submenu=Objects
+
+
+[O Adianti Framework 7.6 agora conta com comandos de baixo nível para manipulação de dados, como insert's, update's, e delete's.](https://www.instagram.com/reel/C4MFTFbt-rh/)
 
 
 # Navegação
