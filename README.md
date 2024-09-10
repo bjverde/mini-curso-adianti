@@ -9,5 +9,7 @@ https://adiantiframework.com.br/cursos
 # [Introdução](doc/introducao.md)
 # [Instalação](doc/instalacao.md)
 # [Banco de dados](doc/banco_model.md)
+# [Componentes](doc/componentes.md)
+# [Criando Sistema](doc/criando_sistema.md)
 # [Vídeos complementares sobre Adianti no YouTube](doc/videos_youtube.md)
 
