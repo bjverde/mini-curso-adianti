@@ -3,7 +3,7 @@
 ## Adianti Framework
 
 > [!WARNING]
-> Lembrando existe o Adianti Template e Adianti Framework, veja a diferença em [Apresentação > Ambiente](apresentacao.md#ambiente-adianti). Esse mini curso tem o foco no Adianti Framework
+> Lembrando existe o Adianti Template e Adianti Framework, veja a diferença em [Apresentação > Ambiente](apresentacao.md#ambiente-adianti). Esse minicurso tem o foco no Adianti Framework
 
 
 
@@ -35,13 +35,13 @@ Um ponto importante é conhecer a [estrutura de diretórios](estrutra_dir.md) do
 * Template o esquema layout para o sistema.
 
 > [!TIP]
-> Para evitar confusão desse ponto para frente o termo template será sempre o esqueleto de sistema e termo TEMA será aparenceia (esquema cores, layout , fonte e etc). 
+> Para evitar confusão desse ponto para frente o termo template será sempre o esqueleto de sistema e termo TEMA será usado para aparência (esquema cores, layout, fonte e etc).
 
 Se acesse a url do Adianti Tutor nos dois links e repare as diferenças
 * https://framework.adianti.me/tutor/
 * https://framework.adianti.me/tutor-material/index.php?class=HomeView
 
-O Adianti tem dois temas basicos um com estilo BootStrap e outro com tema Material. O Tema é feito usando o [Twig](https://twig.symfony.com/) que é um motor de templates (template engine) para PHP. Ele permite separar a lógica da aplicação (PHP) da apresentação (HTML), promovendo uma arquitetura de código mais organizada e manutenível. Em conjunto com o [Admin LTE](https://adminlte.io/) para criar o Layout principal dos sistema criados. O Layout pode ser no estilo bootstrap ou [Material](https://github.com/gurayyarar/AdminBSBMaterialDesign)
+O Adianti tem dois temas básicos um com estilo BootStrap e outro com tema Material. O Tema é feito usando o [Twig](https://twig.symfony.com/) que é um motor de templates (template engine) para PHP. Ele permite separar a lógica da aplicação (PHP) da apresentação (HTML), promovendo uma arquitetura de código mais organizada e manutenível. Em conjunto com o [Admin LTE](https://adminlte.io/) para criar o Layout principal dos sistemas criados. O Layout pode ser no estilo bootstrap ou [Material](https://github.com/gurayyarar/AdminBSBMaterialDesign)
 
 Os temas são responsivos: seja qual for o tamanho da tela vai acompanham a demanda, proporcionando uma experiência de uso facilitada. Os menus se adaptam automaticamente, permitindo uma navegação fluida em qualquer dispositivo. E não para por aí! Os formulários, datagrids e outros componentes também se ajustam perfeitamente ao espaço disponível.
 
