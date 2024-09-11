@@ -8,7 +8,18 @@ Para trabalhar com Adianti Framework é recomendavel que tenha conhecimento das 
 * Arquitetura MVC em PHP
 * Api REST
 
-## Cursos recomendados
+## Cursos oficiais
+
+> [!TIP]
+> A Empresa Adianti Solutions oferece o cursos oficiais. Esse são os curso recomendados
+> https://adiantiframework.com.br/cursos
+
+
+* Curso dominando o Adianti Framework 7 - O material mais completo de treinamento do Framework. Curso em vídeo aulas + Livro completo + Códigos fontes do projeto ERPHouse.
+* PHP Orientação a Objetos e Design Patterns - Faça a formação PHP mais completa voltada para a criação de SISTEMAS, a partir do Zero
+* Meu negócio pronto - Criando um Gestor de conteúdo (SITE) + Loja Virtual (E-Commerce) + Emissor de Notas para infoprodutos. Inclui aulas e códigos-fontes
+
+## Cursos que podem ajudar
 Para quem não tem esses conhecimentos recomendo os cursos abaixo:
 <br>
 <a href="https://www.youtube.com/watch?v=TfsO0BGvGn0&list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_">
