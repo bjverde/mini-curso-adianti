@@ -41,6 +41,13 @@ Veja mais exemplos de config em banco no Guia Rápido do Adianti
 https://adiantiframework.com.br/guia-rapido
 
 
+<br>
+<a href="https://www.youtube.com/watch?v=koaxMS7WHgA">
+    <br>Canal ScriptDevBR, no Youtube: Conexão Banco de Dados Adianti Framework
+    <br><img src="https://img.youtube.com/vi/koaxMS7WHgA/maxresdefault.jpg" width="400"/>
+</a>
+
+
 
 # Classe modelo
 Além do arquivo de config no banco. As classes model representam as tabelas do banco de dados. Uma classe modelo é filha de TRecord. Esta classe do framework fornece métodos básicos de persistência como store(), delete() e load() que manipulam um objeto na base de dados.
@@ -121,6 +128,14 @@ catch (Exception $e){
     new TMessage('error', $e->getMessage()); 
 }
 ```
+
+
+<br>
+<a href="https://www.youtube.com/watch?v=9-MuulVcDpc">
+    <br>Canal ScriptDevBR, no Youtube: Executando a Query no Adianti Framework
+    <br><img src="https://img.youtube.com/vi/9-MuulVcDpc/maxresdefault.jpg" width="400"/>
+</a>
+
 
 # Objetos
 
