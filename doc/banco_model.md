@@ -2,6 +2,9 @@
 
 O Adianti pode conectar com diversos SGBDs:  PostgreSQL, MySQL, SQLite, Oracle, Sql Server, ou Firebird.
 
+> [!CAUTION]
+> O Adianti não trabalha por padrão com MongoDb. É possível fazer funcionar. Só que isso está fora do escopo desse curso
+
 
 ## Arquivo config
 
@@ -11,7 +14,7 @@ Configure o conector dentro da aplicação:
 
 Cada banco de dados deve ser configurado na pasta app/config por um INI ou PHP. Para usar um conector, você deve ter o driver correto habilitado no php.ini.
 
-Vc pode poder inumeros conectores um para cada banco ou SGBD diferente. Exemplos:
+Vc pode ter inumeros conectores um para cada banco ou SGBD diferente. Exemplos:
 * log no sqlite
 * acesso no mysql
 * arquivo no postgresql
