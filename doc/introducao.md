@@ -119,4 +119,4 @@ http://localhost/appexemplo/index.php?class=TipoFormList&method=onShow
     * [Banco de dados](banco_model.md)
     * [Componentes](componentes.md)
     * [Criando Sistema](criando_sistema.md)
-    * [Vídeos complementares sobre Adianti no YouTube](videos_youtube.md)    
+    * [Vídeos complementares sobre Adianti no YouTube](videos_youtube.md)
