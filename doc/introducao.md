@@ -17,13 +17,14 @@ https://framework.adianti.me/tutor/
 1. chama o index.php
 2. chama o inti.php
 3. carrega o tema
-4. cerrega o menu.xml
-5. chama o engine.php
-6. chama o class padrão ou clicada no menu
+4. inicia seção TSession
+5. cerrega o menu.xml
+6. chama o engine.php
+7. chama o class padrão ou clicada no menu
 
-# Index, Init
+# Index, Init, Engine
 
-Toda aplicação inicia no arquivo `<RAIZ_SISTEMA>/index.php` *somente na primeira vez em que o usuário acessa o sistema ou sempre que o mesmo forçar a recarga da página (F5 ou CTRL+R)*. Logo depois é chamado o arquivo `<RAIZ_SISTEMA>/init.php` que carrega todas as libs e informações do arquivo `<RAIZ_SISTEMA>/app/config/application.ini`. Logo depois é carregado o tema, injetando as várias informações como: MENU, LIBRARIES, {class} e etc.
+Toda aplicação inicia no arquivo `<RAIZ_SISTEMA>/index.php` *somente na primeira vez em que o usuário acessa o sistema ou sempre que o mesmo forçar a recarga da página (F5 ou CTRL+R)*. Isto ocorre por que toda a ação realizada é carregada por meio de requisições Javascript assíncronas, por meio do back-end `<RAIZ_SISTEMA>/engine.php`, não necessitando recarga da página. Em seguida é iniciada uma nova seção. TSession é a classe responsável por manipular a sessão. Logo depois é chamado o arquivo `<RAIZ_SISTEMA>/init.php` que carrega todas as libs e informações do arquivo `<RAIZ_SISTEMA>/app/config/application.ini`. Logo depois é carregado o tema, injetando as várias informações como: MENU, LIBRARIES, {class} e etc.
 
 
 No arquivo `<RAIZ_SISTEMA>/index.php` tem a linha abaixo o atributo class é o nome da classe que é um controlador.
@@ -123,7 +124,7 @@ Imagem da tela código acima
 
 ## Menu 
 
-O Arquivo do menu fica em `<RAIZ_SISTEMA>/menu.xml` o menu é composto basicamente dos itens
+O menu é renderizado por meio da classe TMenuBar, que faz a sua interpretação. O Arquivo do menu fica em `<RAIZ_SISTEMA>/menu.xml` o menu é composto basicamente dos itens
 * menuitem com o atributo label="Nome que vai aparecer"
 * icon geralmente do font awesome, olhe o [Tutor no componente Ticon](https://framework.adianti.me//tutor/index.php?class=FormComponentsView) seguido da cor do icone
 * action é nome da classe podendo ter o nome do metodo ou não
