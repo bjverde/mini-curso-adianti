@@ -39,8 +39,8 @@ As classes de controle podem ser filhas de TPage ou de TWindow.
 * TWindow são sempre exibidas em uma nova janela.
 * outra opção é cortinal lateral
 
-> [!TIP]
-> Para sistema que serão usados no celular evite usar Janelas! Pois vai perder um parte consideravel da responsividade. Prefira cortina lateral. 
+> [!IMPORTANT]
+> Para sistema que serão usados tambem no celular ou exclusivamente no celular. Evite usar Janelas! Pois vai perder um parte consideravel da responsividade. Prefira cortina lateral. 
 
 A classe a seguir é parte do código da de uma tela da aplicação de exemplo. Que mostrar a tela cadastro de tipo com filha de TPage
 
@@ -74,6 +74,39 @@ class TipoFormList extends TPage
 
 Imagem da tela código acima
 <br><img src="img/tela_tipo.png" width="500"/>
+
+
+## Carregando o sistema Menu e URL 
+Toda aplicação inicia no arquivo `index.php` *somente na primeira vez em que o usuário acessa o sistema ou sempre que o mesmo forçar a recarga da página (F5 ou CTRL+R)*. Logo depois é chamado o arquivo init.php que carrega todas as libs e informações do arquivo `app/config/application.ini`. Logo depois é carregado o tema, no tema é injetada várias informações como: MENU, LIBRARIES, {class} e etc.
+
+
+No arquivo `index.php` tem a linha abaixo o atributo class é o nome da classe que está no menu.
+```php
+AdiantiCoreApplication::loadPage($_REQUEST['class'], $method, $_REQUEST);
+```
+
+## Menu 
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <menuitem label="Básico">
+    <icon> fa-fw </icon>
+    <menu>
+      <menuitem label="Pessoa">
+        <icon>fas:users fa-fw </icon>
+        <action>PessoaList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Telefone">
+        <icon>fas:phone fa-fw </icon>
+        <action>TelefoneList#method=onShow</action>
+      </menuitem>
+  </menuitem>
+</menu>      
+```
+
+Na URL 
+http://localhost/appexemplo/index.php?class=TipoFormList&method=onShow
 
 
 # Navegação
