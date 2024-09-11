@@ -151,6 +151,7 @@ https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=
     * [Apresentação e Visão geral](apresentacao.md)
     * [Conhecimentos requeridos](conhecimento_requerido.md)
     * [Introdução](introducao.md)
+        * [Estrutura de diretórios](estrutra_dir.md)
     * [Instalação](instalacao.md)
     * [Banco de dados](banco_model.md)
     * [Componentes](componentes.md)
