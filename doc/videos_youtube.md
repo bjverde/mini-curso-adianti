@@ -11,17 +11,31 @@
 * [Conexão Banco de Dados Adianti Framework](https://www.youtube.com/watch?v=koaxMS7WHgA)
 * https://www.youtube.com/watch?v=1f3biISX4Ag
 
-<br>
-<a href="https://www.youtube.com/watch?v=ly4C2oqpzK8">
-    <br>Classe Controlle no Adianti Framework
-    <br><img src="https://img.youtube.com/vi/ly4C2oqpzK8/maxresdefault.jpg" width="400"/>
+
+<a href="https://www.youtube.com/watch?v=L8rqwF-VQqw">
+    <br>Canal ScriptDevBR, no Youtube: Personalizando o Template do Adianti Framework
+    <br><img src="https://img.youtube.com/vi/L8rqwF-VQqw/maxresdefault.jpg" width="400"/>
 </a>
 
 <br>
+<a href="https://www.youtube.com/watch?v=ly4C2oqpzK8">
+    <br>Canal ScriptDevBR, no Youtube: Classe Controlle no Adianti Framework
+    <br><img src="https://img.youtube.com/vi/ly4C2oqpzK8/maxresdefault.jpg" width="400"/>
+</a>
+
+
+<br>
 <a href="https://www.youtube.com/watch?v=PunfmEjWm7A">
-    <br>Adianti Template - Modelo Permission
+    <br>Canal ScriptDevBR, no Youtube: Adianti Template - Modelo Permission
     <br><img src="https://img.youtube.com/vi/PunfmEjWm7A/maxresdefault.jpg" width="400"/>
 </a>
+
+<br>
+<a href="https://www.youtube.com/watch?v=9-MuulVcDpc">
+    <br>Canal ScriptDevBR, no Youtube: Executando a Query no Adianti Framework
+    <br><img src="https://img.youtube.com/vi/9-MuulVcDpc/maxresdefault.jpg" width="400"/>
+</a>
+
 
 
 ## [Canal Ico Menezes](https://www.youtube.com/@icomenezes/videos)
