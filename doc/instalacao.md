@@ -12,10 +12,11 @@
 </a>
 
 <br>
-<a href="https://www.youtube.com/watch?v=8TzgGrf3w60">
-    <br>Permissão na Pasta htdocs do XAMPP no Linux
-    <br><img src="https://img.youtube.com/vi/8TzgGrf3w60/maxresdefault.jpg" width="400"/>
+<a href="https://www.youtube.com/watch?v=ODDhw12Vj-Y">
+    <br>Criando o Servidor Local no Linux
+    <br><img src="https://img.youtube.com/vi/ODDhw12Vj-Y/maxresdefault.jpg" width="400"/>
 </a>
+
 
 
 
