@@ -2,29 +2,17 @@
 
 # Adianti Framework
 
-É um framework de desenvolvimento PHP voltado para a construção rápida de aplicações web, especialmente sistemas de gestão, como ERP, CRM, e outros aplicativos de back-office. Vantegens do Adianti:
+> [!WARNING]
+> Lembrando existe o Adianti Template e Adianti Framework, veja [Apresentação > Ambiente](apresentacao.md#ambiente-adianti). Esse mini curso tem o foco no Adianti Framework
 
-* Componentes prontos para formulários, datagrids, relatórios, gráficos, etiquetas, kanban, calendários, e outros. Templates prontos com recursos de login, menus, responsividade, permissões de acesso, logs, mensagens, etc. Foque na regra de negócios e não em detalhes técnicos.
-* Compatível com PHP8
-* Código-fonte baseado em mais de 30 Design Patterns clássicos
-* Código limpo
-* Faça muito mais escrevendo menos linhas de código
-* Integrações - Integre sistemas usando REST, SOAP, e outros tipos
-* Segurança - Métodos de proteção contra SQL injection, session fixation, e outros
-* Muitos logs - Logs de acesso, de SQL, de API, de alteração de registros, de erros
-* Templates Templates Bootstrap, Material design, com recursos prontos
-* Responsivo Template adaptado para tablets e smartphones
-* [Páginas, janelas, cortinas deslizantes. O que muitos batem cabeça para implementar em outras tecnologias, no Adianti Framework é tão transparente que você só precisa de uma linha para habilitar estes comportamento. O resto, o framework cuida de tudo.](https://www.instagram.com/reel/C8p5gzdJuh6/)
-
-> [!TIP]
-> O Adianti *não*  tem objetico ser um framework mais genetico com os listados abaixo. 
 
 # [Estrutura de diretórios](estrutra_dir.md)
 Conheça a [Estrutura de diretórios](estrutra_dir.md) do adianti antes ver alguns do elemenetos iniciais.
 
 # Templates para a construção de sistemas
 
-O Adianti framework utiliza o termo template para duas coisas diferentes:
+> [!WARNING]
+> O Adianti framework utiliza o termo template para duas coisas diferentes:
 * Template o esqueleto de sistema feito com Adianti, veja [Apresentação > Ambiente](apresentacao.md#ambiente-adianti)
 * Template o esquema layout para o sistema.
 
