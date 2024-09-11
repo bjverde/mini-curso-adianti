@@ -5,6 +5,20 @@
 * [FormDocker diversos ambientes em Docker](https://github.com/bjverde/formDocker)
 
 
+<br>
+<a href="https://www.youtube.com/watch?v=8TzgGrf3w60">
+    <br>Criando o Servidor Local no Linux
+    <br><img src="https://img.youtube.com/vi/8TzgGrf3w60/maxresdefault.jpg" width="400"/>
+</a>
+
+<br>
+<a href="https://www.youtube.com/watch?v=8TzgGrf3w60">
+    <br>Permissão na Pasta htdocs do XAMPP no Linux
+    <br><img src="https://img.youtube.com/vi/8TzgGrf3w60/maxresdefault.jpg" width="400"/>
+</a>
+
+
+
 # Navegação
 * [Súmario](../README.md)
     * [Apresentação e Visão geral](apresentacao.md)
