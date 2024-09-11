@@ -30,6 +30,13 @@ Veja exemplos no Instragram do Adianti
 No GitHub existe um projeto com vários temas. Veja https://github.com/bjverde/adianti-theme
 
 
+<br>
+<a href="https://www.youtube.com/watch?v=L8rqwF-VQqw">
+    <br>Personalizando o Template do Adianti Framework
+    <br><img src="https://img.youtube.com/vi/L8rqwF-VQqw/maxresdefault.jpg" width="400"/>
+</a>
+
+
 ## Um controlador de página
 Uma página é representada por uma classe de controle, que poder conter diversos componentes do Framework: formulários, datagrids, campos, botões, links e etc.
 
@@ -74,6 +81,14 @@ class TipoFormList extends TPage
 
 Imagem da tela código acima
 <br><img src="img/tela_tipo.png" width="500"/>
+
+
+
+<br>
+<a href="https://www.youtube.com/watch?v=ly4C2oqpzK8">
+    <br>Classe Controlle no Adianti Framework
+    <br><img src="https://img.youtube.com/vi/ly4C2oqpzK8/maxresdefault.jpg" width="400"/>
+</a>
 
 
 ## Carregando o sistema Menu e URL 
