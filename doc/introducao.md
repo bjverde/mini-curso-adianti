@@ -42,7 +42,7 @@ As classes de controle podem ser filhas de TPage ou de TWindow.
 > [!TIP]
 > Para sistema que serão usados no celular evite usar Janelas! Pois vai perder um parte consideravel da responsividade. Prefira cortina lateral. 
 
-A classe a seguir é parte do código da de uma tela da aplicação de exemplo. Que mostrar a tela cadastro de tipo.
+A classe a seguir é parte do código da de uma tela da aplicação de exemplo. Que mostrar a tela cadastro de tipo com filha de TPage
 
 ```php
 class TipoFormList extends TPage
@@ -72,7 +72,8 @@ class TipoFormList extends TPage
         $this->limit = 20;
 ```
 
-![Telatipo](img/tela_tipo.png)
+Imagem da tela código acima
+<br><img src="img/tela_tipo.png" width="500"/>
 
 
 # Navegação
