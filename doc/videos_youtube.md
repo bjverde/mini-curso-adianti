@@ -1,5 +1,8 @@
 # Cursos sobre o Adianti
 
+* Amostra do Livro do Adianti - https://adiantiframework.com.br/resources/frame_mostra.pdf?ver=20180903
+* Sumário da ultima edição do Livro do Adianti - https://adiantiframework.com.br/resources/frame_indice.pdf?ver=20180903
+
 <br>
 <a href="https://www.youtube.com/watch?v=HPWBY6cl-LA&list=PLLExJS8y-2LKjK05hVEL3sHr8XupCyZt9">
     <br>Curso Adianti Dev Evangelista, são 13 vídeos.
