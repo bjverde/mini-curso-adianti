@@ -32,7 +32,7 @@ No GitHub existe um projeto com vários temas. Veja https://github.com/bjverde/a
 
 <br>
 <a href="https://www.youtube.com/watch?v=L8rqwF-VQqw">
-    <br>Personalizando o Template do Adianti Framework
+    <br>Canal ScriptDevBR, no Youtube: Personalizando o Template do Adianti Framework
     <br><img src="https://img.youtube.com/vi/L8rqwF-VQqw/maxresdefault.jpg" width="400"/>
 </a>
 
@@ -86,7 +86,7 @@ Imagem da tela código acima
 
 <br>
 <a href="https://www.youtube.com/watch?v=ly4C2oqpzK8">
-    <br>Classe Controlle no Adianti Framework
+    <br>Canal ScriptDevBR, no Youtube: Classe Controlle no Adianti Framework
     <br><img src="https://img.youtube.com/vi/ly4C2oqpzK8/maxresdefault.jpg" width="400"/>
 </a>
 
