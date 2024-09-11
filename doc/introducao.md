@@ -1,22 +1,23 @@
 # Introdução
 
-# Adianti Framework
+## Adianti Framework
 
 > [!WARNING]
-> Lembrando existe o Adianti Template e Adianti Framework, veja [Apresentação > Ambiente](apresentacao.md#ambiente-adianti). Esse mini curso tem o foco no Adianti Framework
+> Lembrando existe o Adianti Template e Adianti Framework, veja a diferença em [Apresentação > Ambiente](apresentacao.md#ambiente-adianti). Esse mini curso tem o foco no Adianti Framework
 
+## Estrutura de diretórios
+Conheça a [Estrutura de diretórios](estrutra_dir.md) do adianti para iniciar o entendimento.
 
-# [Estrutura de diretórios](estrutra_dir.md)
-Conheça a [Estrutura de diretórios](estrutra_dir.md) do adianti antes ver alguns do elemenetos iniciais.
-
-# Templates para a construção de sistemas
+## Apresentação, Templates e Layout
 
 > [!WARNING]
 > O Adianti framework utiliza o termo template para duas coisas diferentes:
 * Template o esqueleto de sistema feito com Adianti, veja [Apresentação > Ambiente](apresentacao.md#ambiente-adianti)
 * Template o esquema layout para o sistema.
 
-Para evitar confusão desse ponto para frente o termo template será sempre o esqueleto e termo tema será o esquema cores e layout. 
+> [!TIP]
+> Para evitar confusão desse ponto para frente o termo template será sempre o esqueleto e termo tema será o esquema cores e layout. 
+
 
 O Adianti utiliza o [Twig](https://twig.symfony.com/) que é um motor de templates (template engine) para PHP. Ele permite separar a lógica da aplicação (PHP) da apresentação (HTML), promovendo uma arquitetura de código mais organizada e manutenível. Em conjunto com o [Admin LTE](https://adminlte.io/) para criar o Layout principal dos sistema criados. O Layout pode ser no estilo bootstrap ou [Material ](https://github.com/gurayyarar/AdminBSBMaterialDesign)
 
@@ -28,7 +29,7 @@ O Adianti utiliza o [Twig](https://twig.symfony.com/) que é um motor de templat
 No GitHub existe um projeto com vários temas. Veja https://github.com/bjverde/adianti-theme
 
 
-# Um controlador de página
+## Um controlador de página
 Uma página é representada por uma classe de controle, que poder conter componentes do Framework: como formulários, datagrids, campos, botões, links e etc.
 
 As classes de controle podem ser filhas de TPage ou de TWindow.
