@@ -72,6 +72,9 @@ class TipoFormList extends TPage
         $this->limit = 20;
 ```
 
+![Telatipo](img/tela_tipo.png)
+
+
 # Navegação
 * [Súmario](../README.md)
     * [Apresentação e Visão geral](apresentacao.md)
