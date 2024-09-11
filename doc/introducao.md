@@ -11,9 +11,17 @@
 
 O que acontece quando chama seu sistema feito em Adianti ?
 
-Se acesse a url do Adianti Tutor
+Acesse a url do Adianti Tutor como exemplo
 https://framework.adianti.me/tutor/
 
+1. chama o index.php
+2. chama o inti.php
+3. carrega o tema
+4. cerrega o menu.xml
+5. chama o engine.php
+6. chama o class padrão ou clicada no menu
+
+# Index, Init
 
 Toda aplicação inicia no arquivo `<RAIZ_SISTEMA>/index.php` *somente na primeira vez em que o usuário acessa o sistema ou sempre que o mesmo forçar a recarga da página (F5 ou CTRL+R)*. Logo depois é chamado o arquivo `<RAIZ_SISTEMA>/init.php` que carrega todas as libs e informações do arquivo `<RAIZ_SISTEMA>/app/config/application.ini`. Logo depois é carregado o tema, injetando as várias informações como: MENU, LIBRARIES, {class} e etc.
 
