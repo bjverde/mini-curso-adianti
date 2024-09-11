@@ -67,10 +67,10 @@ Uma página é representada por uma classe de controle, que poder conter diverso
 As classes de controle podem ser filhas de TPage ou de TWindow.
 * TPage são exibidas no quadro central do layout.
 * TWindow são sempre exibidas em uma nova janela.
-* outra opção é cortinal lateral
+* outra opção é cortina lateral
 
 > [!IMPORTANT]
-> Para sistema que serão usados tambem no celular ou exclusivamente no celular. Evite usar Janelas! Pois vai perder um parte consideravel da responsividade. Prefira cortina lateral. 
+> Para sistema que serão usados também no celular ou exclusivamente no celular. Evite usar Janelas! Pois vai perder uma parte considerável da responsividade. Prefira cortina lateral. 
 
 A classe a seguir é parte do código da de uma tela da aplicação de exemplo. Que mostrar a tela cadastro de tipo com filha de TPage
 
