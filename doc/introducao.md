@@ -159,6 +159,7 @@ O menu é renderizado por meio da classe TMenuBar, que faz a sua interpretação
     * [Instalação](instalacao.md)
     * [Introdução](introducao.md)
         * [Estrutura de diretórios](estrutra_dir.md)
+        * [Arquivo Application.ini](arquivo_config_app.md)
     * [Banco de dados](banco_model.md)
     * [Componentes](componentes.md)
     * [Vídeos complementares sobre Adianti no YouTube](videos_youtube.md)
