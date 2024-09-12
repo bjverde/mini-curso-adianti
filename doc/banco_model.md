@@ -66,7 +66,7 @@ https://adiantiframework.com.br/guia-rapido
 
 <br>
 <a href="https://www.youtube.com/watch?v=koaxMS7WHgA">
-    <br>Canal ScriptDevBR, no Youtube: Conexão Banco de Dados Adianti Framework
+    <br>Canal ScriptDevBR, no Youtube: Criando arquivo conexão Banco de Dados
     <br><img src="https://img.youtube.com/vi/koaxMS7WHgA/maxresdefault.jpg" width="400"/>
 </a>
 
