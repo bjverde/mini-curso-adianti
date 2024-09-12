@@ -132,6 +132,9 @@ O menu é renderizado por meio da classe TMenuBar, que faz a sua interpretação
 * icon geralmente do font awesome, olhe o [Tutor no componente Ticon](https://framework.adianti.me//tutor/index.php?class=FormComponentsView) seguido da cor do icone
 * action é nome da classe podendo ter o nome do metodo ou não
 
+> [!IMPORTANT]
+> Só crie um item de menu para uma classe que existe! Se criar sem existir vai gerar um erro!.
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <menu>
@@ -161,5 +164,7 @@ O menu é renderizado por meio da classe TMenuBar, que faz a sua interpretação
         * [Estrutura de diretórios](estrutra_dir.md)
         * [Arquivo Application.ini](arquivo_config_app.md)
     * [Banco de dados](banco_model.md)
-    * [Componentes](componentes.md)
+    * [Telas](telas.md)
+        * [Componentes](componentes.md)
+        * [Grids](data_grid.md)
     * [Vídeos complementares sobre Adianti no YouTube](videos_youtube.md)
