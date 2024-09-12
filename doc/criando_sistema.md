@@ -4,14 +4,14 @@ Essa seção tem como objetivo de ser um guia das etapas para criar um sistema e
 
 ## 1 Ambiente e infraestrutura 
 
-### 1.1 Baixar o Adianti FrameWork
+### 1.1 Banco de Dados
+Tenha um banco de dados relacional: SqLite, MySql/MariDb, Oracle, PostgreSQL, SqlServer
+
+### 1.2 Baixar o Adianti FrameWork
 Você baixar o [Adianti FrameWork](https://adiantiframework.com.br/) original ou um [Adianti Fork FrameWork](https://github.com/bjverde/adianti-fork-framework)
 
-### 1.2 Instalar
+### 1.3 Instalar
 Faça a [Instalação](instalacao.md)
-
-### 1.3 Banco de Dados
-Tenha um banco de dados relacional: SqLite, MySql/MariDb, Oracle, PostgreSQL, SqlServer
 
 ## 2 Configuração inicial
 
@@ -19,7 +19,7 @@ Tenha um banco de dados relacional: SqLite, MySql/MariDb, Oracle, PostgreSQL, Sq
 Tenha um banco de dados modelado e/ou iniciado para o seu sistema. Lembre-se de seguir as [dicas modelagem](banco_model.md#dicas-para-modelar-o-banco-de-dados)
 
 ### 2.2 Configura o application.ini
-As configurações gereais do sistema ficam no arquivo `<RAIZ_SISTEMA>/app/config/application.ini` veja mais detalhes em [arquivo_config_app](arquivo_config_app.md)
+As configurações gerais do sistema ficam no arquivo `<RAIZ_SISTEMA>/app/config/application.ini` veja mais detalhes em [arquivo_config_app](arquivo_config_app.md)
 
 ### 2.3 Configura o banco
 [Veja como configura o banco de dados no sistema](banco_model.md#arquivo-config)
