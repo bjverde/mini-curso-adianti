@@ -3,11 +3,29 @@
 * Amostra do Livro do Adianti - https://adiantiframework.com.br/resources/frame_mostra.pdf?ver=20180903
 * Sumário da ultima edição do Livro do Adianti - https://adiantiframework.com.br/resources/frame_indice.pdf?ver=20180903
 
+
+## [Dev Evangelista](https://www.youtube.com/@devevangelista)
 <br>
 <a href="https://www.youtube.com/watch?v=HPWBY6cl-LA&list=PLLExJS8y-2LKjK05hVEL3sHr8XupCyZt9">
     <br>Curso Adianti Dev Evangelista, são 13 vídeos.
     <br><img src="https://img.youtube.com/vi/HPWBY6cl-LA/maxresdefault.jpg" width="400"/>
 </a>
+<br>
+<a href="https://www.youtube.com/watch?v=9JUkyFvViDw">
+    <br>Dev Evangelista : controllers 03
+    <br><img src="https://img.youtube.com/vi/9JUkyFvViDw/maxresdefault.jpg" width="400"/>
+</a>
+<br>
+<a href="https://www.youtube.com/watch?v=AGHdM5sE6Fg">
+    <br>Dev Evangelista : models 04
+    <br><img src="https://img.youtube.com/vi/AGHdM5sE6Fg/maxresdefault.jpg" width="400"/>
+</a>
+<br>
+<a href="https://www.youtube.com/watch?v=zPN_xnHyzVM">
+    <br>Dev Evangelista : associação entre models 05
+    <br><img src="https://img.youtube.com/vi/zPN_xnHyzVM/maxresdefault.jpg" width="400"/>
+</a>
+
 
 
 ## [Canal ScriptDevBR](https://www.youtube.com/@dev-fabriciobr)
