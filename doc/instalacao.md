@@ -5,6 +5,9 @@
 * [FormDocker diversos ambientes em Docker](https://github.com/bjverde/formDocker)
 
 
+Depois de preparar o ambiente coloque o Adianti no www do seu servidor.
+
+
 <br>
 <a href="https://www.youtube.com/watch?v=8TzgGrf3w60">
     <br>Criando o Servidor Local no Linux
