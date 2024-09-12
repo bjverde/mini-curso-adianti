@@ -6,6 +6,26 @@ O Adianti pode conectar com diversos SGBDs:  PostgreSQL, MySQL, SQLite, Oracle, 
 > O Adianti não trabalha por padrão com MongoDb. É possível fazer funcionar. Só que isso está fora do escopo desse curso
 
 
+## Dicas para modelar o banco de dados.
+As dicas abaixo são validas para bancos relacionais. Siga as dicas e terá seu tempo poupado no momento do desenvolvimento. Lembre-se a sua informação está no banco de dados, então cuide muito bem dele. Foque em um banco bem modelado e com dicionário de dados.
+
+> [!TIP]
+> NÃO use chaves primarias composta !!
+
+Os artigos abaixo explicam melhor o motivo para não usar chave primaria composta. 
+* [7 motivos para não usar chaves compostas](http://www.dalloglio.net/140?7-motivos-para-nao-usar-chaves-compostas)
+* [Qual a diferença entre Primary Key e Unique Key](https://www.devmedia.com.br/forum/qual-a-diferenca-entreprimary-key-e-unique-key/513038)
+
+
+Inclua 6 campos abaixo nas suas tabelas, com eles terá um tipo de log mais simples e rápido sobre o registro. Mais detalhes serão explicados no futuro.
+* data inclusão
+* usuario inclusão
+* data alteração
+* usuario alteração 
+* data delete
+* usuario delete
+
+
 ## Arquivo config
 
 Configure o conector dentro da aplicação:
