@@ -53,7 +53,7 @@ As configurações gereais do sistema ficam no arquivo `<RAIZ_SISTEMA>/app/confi
 
 > [!WARNING]
 > O Adianti framework utiliza o termo template para duas coisas diferentes:
-* Template o esqueleto de sistema feito com Adianti, veja [Apresentação > Ambiente](apresentacao.md#ambiente-adianti)
+* Template o esqueleto de sistema feito com Adianti, veja a diferença em [Apresentação > Ambiente](apresentacao.md#ambiente-adianti)
 * Template o esquema layout para o sistema.
 
 > [!TIP]
