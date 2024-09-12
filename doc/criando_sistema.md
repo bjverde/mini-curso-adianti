@@ -19,6 +19,7 @@ Tenha um banco de dados relacional: SqLite, MySql/MariDb, Oracle, PostgreSQL, Sq
 Tenha um banco de dados modelado e/ou iniciado para o seu sistema. Lembre-se de seguir as [dicas modelagem](banco_model.md#dicas-para-modelar-o-banco-de-dados)
 
 ### 2.2 Configura o application.ini
+As configurações gereais do sistema ficam no arquivo `<RAIZ_SISTEMA>/app/config/application.ini` veja mais detalhes em [arquivo_config_app](arquivo_config_app.md)
 
 ### 2.3 Configura o banco
 [Veja como configura o banco de dados no sistema](banco_model.md#arquivo-config)
@@ -39,6 +40,7 @@ Tenha um banco de dados modelado e/ou iniciado para o seu sistema. Lembre-se de 
     * [Instalação](instalacao.md)
     * [Introdução](introducao.md)
         * [Estrutura de diretórios](estrutra_dir.md)
+        * [Arquivo Application.ini](arquivo_config_app.md)
     * [Banco de dados](banco_model.md)
-    * [Componentes](componentes.md)    
+    * [Componentes](componentes.md)
     * [Vídeos complementares sobre Adianti no YouTube](videos_youtube.md)
