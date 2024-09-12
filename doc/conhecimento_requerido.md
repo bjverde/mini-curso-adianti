@@ -19,6 +19,10 @@ Para trabalhar com Adianti Framework é recomendavel que tenha conhecimento das 
 * PHP Orientação a Objetos e Design Patterns - Faça a formação PHP mais completa voltada para a criação de SISTEMAS, a partir do Zero
 * Meu negócio pronto - Criando um Gestor de conteúdo (SITE) + Loja Virtual (E-Commerce) + Emissor de Notas para infoprodutos. Inclui aulas e códigos-fontes
 
+## Cursos não oficiais sobre Adianti
+
+[Vídeos complementares sobre Adianti no YouTube](videos_youtube.md)
+
 ## Cursos que podem ajudar
 Para quem não tem esses conhecimentos recomendo os cursos abaixo:
 <br>
