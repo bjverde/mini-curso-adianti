@@ -55,6 +55,7 @@ Visite nosso site e conheça mais sobre nosso Framework.](https://www.instagram.
     * [Instalação](instalacao.md)
     * [Introdução](introducao.md)
         * [Estrutura de diretórios](estrutra_dir.md)
+        * [Arquivo Application.ini](arquivo_config_app.md)
     * [Banco de dados](banco_model.md)
     * [Componentes](componentes.md)
     * [Vídeos complementares sobre Adianti no YouTube](videos_youtube.md)
