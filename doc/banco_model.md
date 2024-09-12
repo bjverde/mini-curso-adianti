@@ -28,7 +28,7 @@ Inclua 6 campos abaixo nas suas tabelas, com eles terá um tipo de log mais simp
 
 ## Arquivo config
 
-Configure o conector dentro da aplicação:
+Configure o conector de banco de dados dentro da aplicação:
 * Arquivo INI: app/config/meu-banco.ini
 * Arquivo PHP: app/config/meu-banco.php
 
@@ -43,8 +43,8 @@ Vc pode ter inumeros conectores um para cada banco ou SGBD diferente. Exemplos:
 > Recomento usar arquivos PHP, assim terá um pouco mais de segurança para seu sistema. Arquivos INI por padrão o Apache mostrar o seu conteúdo diferente do arquivo PHP
 
 
-## Exemplo PHP
-Arquivo em PHP de exemplo que poderá ser usado
+### Exemplo config
+Exemplo de arquivo config de banco no formato PHP
 
 ```php
 return [
@@ -73,6 +73,9 @@ https://adiantiframework.com.br/guia-rapido
 
 
 # Classe modelo
+
+O acesso a bancos de dados dentro do Adianti Framework passa por uma camada orientada a objetos que torna a maioria das operações transparentes ao desenvolvedor com um ORM. 
+
 Além do arquivo de config no banco. As classes model representam as tabelas do banco de dados. Uma classe modelo é filha de TRecord. Esta classe do framework fornece métodos básicos de persistência como store(), delete() e load() que manipulam um objeto na base de dados.
 
 ## Exemplo de classe model
