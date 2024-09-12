@@ -8,17 +8,22 @@ Essa seção tem como objetivo de ser um guia das etapas para criar um sistema e
 Você baixar o [Adianti FrameWork](https://adiantiframework.com.br/) original ou um [Adianti Fork FrameWork](https://github.com/bjverde/adianti-fork-framework)
 
 ### 1.2 Instalar
+Faça a [Instalação](instalacao.md)
 
-### 1.3 Ter banco de Dados
+### 1.3 Banco de Dados
+Tenha um banco de dados relacional: SqLite, MySql/MariDb, Oracle, PostgreSQL, SqlServer
 
-## 2 Desenvolvimento
+## 2 Configuração inicial
 
 ### 2.1 Banco de dados modelado
-Deve um banco de dados modelado ou iniciado 
+Tenha um banco de dados modelado e/ou iniciado para o seu sistema.
 
-### 2.2 Configura o banco
+### 2.2 Configura o application.ini
 
-## 4 Configura o application.ini
+### 2.3 Configura o banco
+banco_model.md#arquivo-config
+
+### 3 Desenvolvimento
 
 ## 5 Criar models
 
@@ -31,7 +36,7 @@ Deve um banco de dados modelado ou iniciado
     * [Apresentação e Visão geral](apresentacao.md)
     * [Conhecimentos requeridos](conhecimento_requerido.md)
     * [Criando Sistema](criando_sistema.md)
-    * [Instalação](instalacao.md)    
+    * [Instalação](instalacao.md)
     * [Introdução](introducao.md)
         * [Estrutura de diretórios](estrutra_dir.md)
     * [Banco de dados](banco_model.md)
