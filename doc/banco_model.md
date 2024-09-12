@@ -130,6 +130,17 @@ Veja exemplos no Guia Rápido do Adianti
 https://adiantiframework.com.br/guia-rapido
 
 
+<br>
+<a href="https://www.youtube.com/watch?v=AGHdM5sE6Fg">
+    <br>Dev Evangelista : models 04
+    <br><img src="https://img.youtube.com/vi/AGHdM5sE6Fg/maxresdefault.jpg" width="400"/>
+</a>
+<br>
+<a href="https://www.youtube.com/watch?v=zPN_xnHyzVM">
+    <br>Dev Evangelista : associação entre models 05
+    <br><img src="https://img.youtube.com/vi/zPN_xnHyzVM/maxresdefault.jpg" width="400"/>
+</a>
+
 
 # Conexões
 
