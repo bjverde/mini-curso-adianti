@@ -47,8 +47,8 @@ Um ponto importante é conhecer a [estrutura de diretórios](estrutra_dir.md) do
 > Para evitar confusão desse ponto para frente o termo template será sempre o esqueleto de sistema e termo TEMA será usado para aparência (esquema cores, layout, fonte e etc).
 
 Se acesse a url do Adianti Tutor nos dois links e repare as diferenças
-* https://framework.adianti.me/tutor/
-* https://framework.adianti.me/tutor-material/index.php?class=HomeView
+* Bootstrap theme3- https://framework.adianti.me/tutor/
+* Material theme4 - https://framework.adianti.me/tutor-material/
 
 O Adianti tem dois temas básicos um com estilo BootStrap e outro com tema Material. O Tema é feito usando o [Twig](https://twig.symfony.com/) que é um motor de templates (template engine) para PHP. Ele permite separar a lógica da aplicação (PHP) da apresentação (HTML), promovendo uma arquitetura de código mais organizada e manutenível. Em conjunto com o [Admin LTE](https://adminlte.io/) para criar o Layout principal dos sistemas criados. O Layout pode ser no estilo bootstrap ou [Material](https://github.com/gurayyarar/AdminBSBMaterialDesign)
 
