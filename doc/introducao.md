@@ -36,7 +36,7 @@ AdiantiCoreApplication::loadPage($_REQUEST['class'], $method, $_REQUEST);
 Um ponto importante é conhecer a [estrutura de diretórios](estrutra_dir.md) do adianti para iniciar o entendimento especialmente [arquivos na raiz](estrutra_dir.md#detalhando-direito-na-raiz-e-arquivos) e [diretório APP](estrutra_dir.md#detalhando-direito-na-app)
 
 ## Arquivo Application.ini
-Um ponto importante é configurar o arquivo `<RAIZ_SISTEMA>/app/config/application.ini` veja [arquivo_config_app](arquivo_config_app.md)
+As configurações gereais do sistema ficam no arquivo `<RAIZ_SISTEMA>/app/config/application.ini` veja mais detalhes em [arquivo_config_app](arquivo_config_app.md)
 
 
 ## Apresentação, Tema e Layout
