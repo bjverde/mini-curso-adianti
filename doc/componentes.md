@@ -1,10 +1,12 @@
 # Componentes de tela
-O Adianti tem vários componentes prontos abaixo alguns exemplos
 
+
+## Exemplos no instagram
+Abaixo vários exemplos de usos do componentes no Instagram no Adianti
 
 * [Páginas, janelas, cortinas deslizantes. O que muitos batem cabeça para implementar em outras tecnologias, no Adianti Framework é tão transparente que você só precisa de uma linha para habilitar estes comportamento. O resto, o framework cuida de tudo.](https://www.instagram.com/reel/C8p5gzdJuh6/)
 
-## Datagrid
+### Datagrid
 
 * [DataGrid conectado a um REST Service](https://www.instagram.com/reel/C5ox4bdNWUP/)
 
@@ -16,7 +18,7 @@ O Adianti tem vários componentes prontos abaixo alguns exemplos
     * [Conheça mais desses recursos testando o Tutor, uma aplicação com microexemplos de uso do Framework.](https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Presentation&submenu=Datagrids)
 
 
-## Cortina Lateral
+### Cortina Lateral
 
 * [As cortinas são a solução perfeita para abrir várias interfaces, como visualização e cadastro, em um espaço reduzido de tela. Com o Adianti Framework, o processo de abertura e fechamento é totalmente automático](https://www.instagram.com/reel/CtPtBntNPrP/)
 
@@ -29,19 +31,13 @@ O Adianti tem vários componentes prontos abaixo alguns exemplos
 * [Cortinal lateral para edição de dados](https://www.instagram.com/p/CosvL_RNkEi/)
 
 
-## Outros 
+### Outros 
 
-* [Descubra o método TWindow::create(): a ferramenta essencial para criar janelas de forma rápida e eficiente! 
-Visite nosso site e conheça mais sobre nosso Framework.](https://www.instagram.com/reel/C8p5gzdJuh6/)
-
+* [Descubra o método TWindow::create(): a ferramenta essencial para criar janelas de forma rápida e eficiente! Visite nosso site e conheça mais sobre nosso Framework.](https://www.instagram.com/reel/C8p5gzdJuh6/)
 * [O mestre-detalhe é um recurso fundamental em sistemas ERP.](https://www.instagram.com/reel/Crjjn5tPF0S/)
-
 * [Kabam](https://www.instagram.com/reel/Csrp5sFN46t/)
-
 * [autenticação de dois fatores TOTP](https://www.instagram.com/reel/C5UO8aeBQKx/)
-
 * [códigos personalizados!](https://www.instagram.com/reel/C6M4biira5X/)
-
 * [Escala likert. Como usar esse componente muito utilizado para fazer pesquisas.](https://www.instagram.com/reel/C58Mupds42Y/)
 
 * [Componente de Gantt? veio na versão 7.5](https://www.instagram.com/reel/CnVMKfKrLLt/)
