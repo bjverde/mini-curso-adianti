@@ -1,6 +1,6 @@
 # Criando sistema
 
-Essa seção tem como objetivo de ser um guia das etapas para criar um sistema em adianti, mostrando os pontos principais.
+Essa seção tem como objetivo de ser um guia das etapas para criar um sistema em adianti, mostrando os pontos principais. Se for a sua primeira veja apenas para ter um visão geral do processo. Não é o momento de aprofundar, faça isso depois de ver todo o curso.
 
 ## 1 Ambiente e infraestrutura 
 
@@ -16,20 +16,20 @@ Tenha um banco de dados relacional: SqLite, MySql/MariDb, Oracle, PostgreSQL, Sq
 ## 2 Configuração inicial
 
 ### 2.1 Banco de dados modelado
-Tenha um banco de dados modelado e/ou iniciado para o seu sistema.
+Tenha um banco de dados modelado e/ou iniciado para o seu sistema. Lembre-se de seguir as [dicas modelagem](banco_model.md#dicas-para-modelar-o-banco-de-dados)
 
 ### 2.2 Configura o application.ini
 
 ### 2.3 Configura o banco
-banco_model.md#arquivo-config
+[Veja como configura o banco de dados no sistema](banco_model.md#arquivo-config)
 
 ### 3 Desenvolvimento
 
-## 5 Criar models
+### 3.1 Criar models
 
-## 6 Criar telas
+### 3.3 Criar telas
 
-## 7 alterar o Menu
+### 3.4 Alterar o Menu
 
 # Navegação
 * [Súmario](../README.md)
