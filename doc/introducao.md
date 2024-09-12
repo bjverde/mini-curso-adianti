@@ -31,6 +31,16 @@ No arquivo `<RAIZ_SISTEMA>/index.php` tem a linha abaixo o atributo class é o n
 ```php
 AdiantiCoreApplication::loadPage($_REQUEST['class'], $method, $_REQUEST);
 ```
+## Arquitetura
+
+* Model: Uma entidade do modelo. Estas entidades manipulam dados e desempenham algumas regras de negócio. São representadas por classes armazenadas em app/model. Ex: Cliente, Venda, Pedido;
+
+* View: Interface visual na fronteira entre o sistema e o usuário. Pode ser representada por um Template HTML (app/resources), ou um grupo de objetos compondo um objeto maior (app/view). Estes objetos geralmente lidam com aspectos de apresentação ou coleta de informações ao usuário final;
+
+* Controller: Responsável por receber ações vindas de uma classe View e tomar ações. Coordena a sequência de atividades em resposta a uma ação. Para isto, geralmente interage com vários objetos Model para oferecer uma resposta ao objeto View; A telas criadas dinamicamente ficam aqui
+
+* Service: Responsável por prestar um serviço para a aplicação (serviço interno), como, por exemplo, processar uma regra de negócio complexa, ou prestar um serviço para outra aplicação (ex: REST Service). Representada por uma classe armazenada na pasta app/service.
+
 
 ## Estrutura de diretórios
 Um ponto importante é conhecer a [estrutura de diretórios](estrutra_dir.md) do adianti para iniciar o entendimento especialmente [arquivos na raiz](estrutra_dir.md#detalhando-direito-na-raiz-e-arquivos) e [diretório APP](estrutra_dir.md#detalhando-direito-na-app)
@@ -71,58 +81,17 @@ No GitHub existe um projeto com vários temas. Veja https://github.com/bjverde/a
 </a>
 
 
-
-## Um controlador de página
+## Um controlador de página ou Tela
 Uma página é representada por uma classe de controle, que poder conter diversos componentes do Framework: formulários, datagrids, campos, botões, links e etc.
 
 
 As classes de controle podem ser filhas de TPage ou de TWindow.
 * TPage são exibidas no quadro central do layout.
 * TWindow são sempre exibidas em uma nova janela.
-* outra opção é cortina lateral, geralmente com TPage
+* outra opção é cortina lateral, geralmente com TPage.
 
-> [!IMPORTANT]
-> Para sistema que serão usados também no celular ou exclusivamente no celular. Evite usar Janelas! Pois vai perder uma parte considerável da responsividade. Prefira cortina lateral. 
-
-A classe a seguir é parte do código da de uma tela da aplicação de exemplo. Que mostrar a tela cadastro de tipo com filha de TPage
-
-```php
-class TipoFormList extends TPage
-{
-    private $form; // form
-    private $datagrid; // listing
-    private $pageNavigation;
-    private $loaded;
-    private static $database = 'maindatabase';
-    private static $activeRecord = 'Tipo';
-    private static $primaryKey = 'idtipo';
-    private static $formName = 'form_TipoFormList';
-    private $limit = 20;
-
-    /**
-     * Class constructor
-     * Creates the page, the form and the listing
-     */
-    public function __construct($param)
-    {
-        parent::__construct();
-        // creates the form
-        $this->form = new BootstrapFormBuilder(self::$formName);
-
-        // define the form title
-        $this->form->setFormTitle("tipo");
-        $this->limit = 20;
-```
-
-Imagem da tela código acima
+Imagem de uma tela de exemplo
 <br><img src="img/tela_tipo.png" width="500"/>
-
-
-<br>
-<a href="https://www.youtube.com/watch?v=ly4C2oqpzK8">
-    <br>Canal ScriptDevBR, no Youtube: Classe Controlle no Adianti Framework
-    <br><img src="https://img.youtube.com/vi/ly4C2oqpzK8/maxresdefault.jpg" width="400"/>
-</a>
 
 
 ## Menu 
