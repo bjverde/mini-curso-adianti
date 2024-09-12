@@ -27,6 +27,7 @@ As configurações gerais do sistema ficam no arquivo `<RAIZ_SISTEMA>/app/config
 ## 3 Desenvolvimento
 
 ### 3.1 Criar models
+[Veja em Banco de dados > Model](banco_model.md#classe-modelo)
 
 ### 3.3 Criar telas
 
