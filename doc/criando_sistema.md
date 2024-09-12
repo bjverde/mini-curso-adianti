@@ -30,6 +30,7 @@ As configurações gerais do sistema ficam no arquivo `<RAIZ_SISTEMA>/app/config
 [Veja em Banco de dados > Model](banco_model.md#classe-modelo)
 
 ### 3.3 Criar telas
+[Crie as telas seguindo as dicas](telas.md)
 
 ### 3.4 Alterar o Menu
 Siga as intruções conforme [introdução > Menu](introducao.md#menu)
