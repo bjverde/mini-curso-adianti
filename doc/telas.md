@@ -12,45 +12,51 @@ Qualquer elemento a ser apresentado pelo Framework deve estar contido em uma pá
 
 > [!IMPORTANT]
 > Para sistema que serão usados também no celular ou exclusivamente no celular. Evite usar Janelas! Pois vai perder uma parte considerável da responsividade. Prefira cortina lateral. 
-
-No método construtor da página acrescentamos seu conteúdo, por meio do método add().
+> Esse minicurso *NÃO* vai tratar TWindow. 
 
 A classe a seguir é parte do código da de uma tela da aplicação de exemplo. Que mostrar a tela cadastro de tipo com filha de TPage
 
+
+Imagem de uma tela mostrando uma tela com TPage
+<br><img src="img/tela_tipo.png" width="500"/>
+
+
+## Exemplo de uma tela simples
 
 ```php
 class TipoFormList extends TPage
 {
     private $form; // form
-    private $datagrid; // listing
-    private $pageNavigation;
-    private $loaded;
-    private static $database = 'maindatabase';
-    private static $activeRecord = 'Tipo';
-    private static $primaryKey = 'idtipo';
-    private static $formName = 'form_TipoFormList';
-    private $limit = 20;
 
-    /**
-     * Class constructor
-     * Creates the page, the form and the listing
-     */
     public function __construct($param)
     {
         parent::__construct();
-        // creates the form
-        $this->form = new BootstrapFormBuilder(self::$formName);
-
-        // define the form title
+        $this->form = new BootstrapFormBuilder('form_TipoFormList');
         $this->form->setFormTitle("tipo");
         $this->limit = 20;
+
+        $descricao = new TEntry('descricao');
+        $descricao->setMaxLength(100);
+        $descricao->setSize('100%');
+
+        $this->form->addFields(
+            [new TLabel("Descrição:", '#ff0000', '14px', null)]
+           ,[$descricao]
+           );
+
+        // vertical box container
+        $container = new TVBox;
+        $container->style = 'width: 100%';
+        $container->add(TBreadCrumb::create(["Básico","tipo"]));
+        $container->add($this->form);
+        $container->add($panel);
+
+        parent::add($container);
+    }
+}
 ```
 
-Imagem da tela código acima, mostrando uma tela com TPage
-<br><img src="img/tela_tipo.png" width="500"/>
 
-> [!IMPORTANT]
-> Esse Para sistema que serão usados também no celular ou exclusivamente no celular. Evite usar Janelas! Pois vai perder uma parte considerável da responsividade. Prefira cortina lateral. 
 
 
 <br>
@@ -58,6 +64,14 @@ Imagem da tela código acima, mostrando uma tela com TPage
     <br>Canal ScriptDevBR, no Youtube: Classe Controlle no Adianti Framework
     <br><img src="https://img.youtube.com/vi/ly4C2oqpzK8/maxresdefault.jpg" width="400"/>
 </a>
+
+No método construtor da página acrescentamos seu conteúdo, por meio do método add().
+
+## Componentes
+O Adianti tem diversos [componentes](componentes.md) veja como usar de maneira geral
+
+## Grids
+A forma mais [Grids](data_grid.md)
 
 
 # Navegação
