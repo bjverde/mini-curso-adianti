@@ -1,6 +1,6 @@
 # Criando sistema
 
-Essa seção tem como objetivo de ser um guia das etapas para criar um sistema em adianti, mostrando os pontos principais. Se for a sua primeira veja apenas para ter um visão geral do processo. Não é o momento de aprofundar, faça isso depois de ver todo o curso.
+Essa seção tem como objetivo de ser um guia das etapas para criar um sistema em adianti, mostrando os pontos principais. Se for a sua primeira leitura use apenas para ter um visão geral do processo. Não é o momento de aprofundar, faça isso depois de ver todo o curso.
 
 ## 1 Ambiente e infraestrutura 
 
@@ -23,7 +23,7 @@ Tenha um banco de dados modelado e/ou iniciado para o seu sistema. Lembre-se de 
 ### 2.3 Configura o banco
 [Veja como configura o banco de dados no sistema](banco_model.md#arquivo-config)
 
-### 3 Desenvolvimento
+## 3 Desenvolvimento
 
 ### 3.1 Criar models
 
