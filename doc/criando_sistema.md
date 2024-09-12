@@ -31,6 +31,7 @@ As configurações gereais do sistema ficam no arquivo `<RAIZ_SISTEMA>/app/confi
 ### 3.3 Criar telas
 
 ### 3.4 Alterar o Menu
+Siga as intruções conforme [introdução > Menu](introducao.md#menu)
 
 # Navegação
 * [Súmario](../README.md)
