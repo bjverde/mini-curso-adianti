@@ -93,6 +93,7 @@ As classes de controle podem ser filhas de TPage ou de TWindow.
 Imagem de uma tela de exemplo
 <br><img src="img/tela_tipo.png" width="500"/>
 
+[Olhe o Adianti Tutor 7.6 para ver mais exemplos de tipos de paginas](https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Presentation&submenu=Pages)
 
 ## Menu 
 
