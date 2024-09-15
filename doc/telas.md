@@ -23,39 +23,43 @@ Imagem de uma tela mostrando uma tela com TPage
 
 ## Exemplo de uma tela simples
 
+Veja o código abaixo com os comentários para entender como criar um formulário
+
 ```php
 class TipoFormList extends TPage
 {
     private $form; // form
 
+    //$param recebe os resultado do $_REQUEST
     public function __construct($param)
     {
         parent::__construct();
-        $this->form = new BootstrapFormBuilder('form_TipoFormList');
-        $this->form->setFormTitle("tipo");
-        $this->limit = 20;
+        //Na linha abaixo está criando um formulário do tipo bootstrap
+        $this->form = new BootstrapFormBuilder('form_TipoFormList'); //id do form
+        $this->form->setFormTitle("tipo"); //Título do Form que irá aparecer
 
-        $descricao = new TEntry('descricao');
-        $descricao->setMaxLength(100);
-        $descricao->setSize('100%');
+        //Nesse exemplo tempos apenas UM campo de texto livre
+        $descricao = new TEntry('descricao'); //tipo de campo e seu id descricao
+        $descricao->setMaxLength(100); //tamanho maximo de caracteres
+        $descricao->setSize('100%'); //largura do campo no grid layout do bootstrap. NÃO é na tela
 
+        //Abaixo estamos incluindo no form os Label e campos criados
         $this->form->addFields(
             [new TLabel("Descrição:", '#ff0000', '14px', null)]
            ,[$descricao]
            );
 
-        // vertical box container
-        $container = new TVBox;
-        $container->style = 'width: 100%';
-        $container->add(TBreadCrumb::create(["Básico","tipo"]));
-        $container->add($this->form);
-        $container->add($panel);
 
-        parent::add($container);
+        //Criamos um conteiner que será incluido 2 elementos
+        $container = new TVBox; //Tipo de conteiner
+        $container->style = 'width: 100%'; //largura na tela
+        $container->add(TBreadCrumb::create(["Básico","tipo"])); //incluido o primeiro elemento que é um caminho de migalha da pão
+        $container->add($this->form);//incluido o formulário com os elementos filhos
+
+        parent::add($container);//o conteiner é incluido na Classe TPage
     }
 }
 ```
-
 
 
 
