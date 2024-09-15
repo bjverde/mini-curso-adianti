@@ -61,6 +61,7 @@ class TipoFormList extends TPage
 }
 ```
 
+Um elemento muito importante na tela é o Contêineres, que é uma forma de agrupar diversos elementos. [Veja no link do tutor os diversos Contêineres do Adianti](https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Presentation&submenu=Containers)
 
 
 <br>
