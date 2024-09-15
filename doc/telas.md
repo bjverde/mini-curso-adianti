@@ -60,8 +60,7 @@ class TipoFormList extends TPage
     }
 }
 ```
-
-Um elemento muito importante na tela é o Contêineres, que é uma forma de agrupar diversos elementos. [Veja no link do tutor os diversos Contêineres do Adianti](https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Presentation&submenu=Containers)
+No método construtor da página acrescentamos seu conteúdo, por meio do método add(). No exemplo acima foi incluido o $container. Um elemento muito importante na tela é o Contêineres, que é uma forma de agrupar diversos elementos. [Veja no link do tutor os diversos Contêineres do Adianti](https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Presentation&submenu=Containers)
 
 
 <br>
@@ -70,13 +69,11 @@ Um elemento muito importante na tela é o Contêineres, que é uma forma de agru
     <br><img src="https://img.youtube.com/vi/ly4C2oqpzK8/maxresdefault.jpg" width="400"/>
 </a>
 
-No método construtor da página acrescentamos seu conteúdo, por meio do método add().
-
 ## Componentes
-O Adianti tem diversos [componentes](componentes.md) veja como usar de maneira geral
+O Adianti tem diversos componentes de telas prontos. Para maiores detalhes veja em [componentes](componentes.md)
 
 ## Grids
-A forma mais [Grids](data_grid.md)
+Um componente especial que merece um capitulo separado o [Data Grids](data_grid.md)
 
 
 # Navegação
