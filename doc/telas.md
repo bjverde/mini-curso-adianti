@@ -114,6 +114,24 @@ No links abaixo verá no tutor como dispor os elementos
 * https://framework.adianti.me//tutor/index.php?class=FormBuilderGridView
 * https://framework.adianti.me//tutor/index.php?class=FormNestedBuilderView
 
+
+## Ações no Form
+
+* https://framework.adianti.me//tutor/index.php?class=FormBuilderView
+
+```php
+// define the form action 
+$this->form->addAction('Send', new TAction(array($this, 'onSend')), 'far:check-circle green');
+$this->form->addHeaderAction('Send', new TAction(array($this, 'onSend')), 'fa:rocket orange');
+
+// extra dropdown.
+$dropdown = new TDropDown('Dropdown test', 'fa:th blue');
+$dropdown->addPostAction( 'PostAction', new TAction(array($this, 'onSend') ), $this->form->getName(), 'far:check-circle');
+$dropdown->addAction( 'Shortcut to customers', new TAction(array('CustomerDataGridView', 'onReload') ), 'fa:link');
+$this->form->addFooterWidget($dropdown);
+$this->form->addHeaderWidget($dropdown);
+```
+
 ## Componentes
 O Adianti tem diversos componentes de telas prontos. Para maiores detalhes veja em [componentes](componentes.md)
 
