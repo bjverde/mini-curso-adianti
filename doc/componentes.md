@@ -1,5 +1,9 @@
 # Componentes de tela
 
+Os principais componentes de tela 
+https://framework.adianti.me//tutor/index.php?class=FormComponentsView
+
+Combinar selec - https://framework.adianti.me//tutor/index.php?class=HomeView&method=onLoad&menu=Organization&submenu=Field%20interactions
 
 ## Exemplos no instagram
 Abaixo vários exemplos de usos do componentes no Instagram no Adianti
