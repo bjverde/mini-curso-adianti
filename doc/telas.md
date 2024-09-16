@@ -69,6 +69,51 @@ No método construtor da página acrescentamos seu conteúdo, por meio do métod
     <br><img src="https://img.youtube.com/vi/ly4C2oqpzK8/maxresdefault.jpg" width="400"/>
 </a>
 
+## Disposição dos elementos da tela.
+
+> [!IMPORTANT]
+> Cuidado para não confundir o layout do componentes usando GRID com o Data Grid. O primeiro é disposição de componentes de tela e o segundo é apresentadas de dados em tabela.
+
+
+O Adianti utiliza sistema de GRID do bootstrap. Isso quer dizer que o BootStrap tem 12 colunas na telas para dispor os elementos e assim facilitar a responsividade. Imagem uma tela com label e campo, então em mais linha vc pode ter 6 campos. Sim é possível incluir mais campos porém isso será uma combinação de elmentos. 
+
+O Código abaixo tem um label e compo
+```php
+        $this->form->addFields(
+            [new TLabel("Descrição:", '#ff0000', '14px', null)]
+           ,[$descricao]
+           );
+```
+
+No exemplo abaixo temos 3 campos e label. Sempre no modelo de label na frente do campo. Isso vai usar 6 colunas
+```php
+        $this->form->addFields(
+            [new TLabel("campo 1:", '#ff0000', '14px', null)]
+           ,[$campo1]
+           ,[new TLabel("campo 2:", '#ff0000', '14px', null)]
+           ,[$campo2]
+           ,[new TLabel("campo 3:", '#ff0000', '14px', null)]
+           ,[$campo3]
+           );
+```
+
+O exemplo tem os labels sobre os campos, logo vai usar 3 colunas
+```php
+        $this->form->addFields(            
+            [new TLabel("campo 1:", '#ff0000', '14px', null)][$campo1]
+           ,[new TLabel("campo 2:", '#ff0000', '14px', null)][$campo2]
+           ,[new TLabel("campo 3:", '#ff0000', '14px', null)][$campo3]
+           );
+```
+
+Para compreender melhor sobre o grid bootstrap veja os links abaixo
+* https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
+* https://getbootstrap.com.br/docs/4.1/layout/grid/
+
+No links abaixo verá no tutor como dispor os elementos
+* https://framework.adianti.me//tutor/index.php?class=FormBuilderGridView
+* https://framework.adianti.me//tutor/index.php?class=FormNestedBuilderView
+
 ## Componentes
 O Adianti tem diversos componentes de telas prontos. Para maiores detalhes veja em [componentes](componentes.md)
 
